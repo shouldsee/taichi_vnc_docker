@@ -1,0 +1,47 @@
+ * Serving Flask app '/opt/app/server.py' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.8/dist-packages/flask/__main__.py", line 3, in <module>
+    main()
+  File "/usr/local/lib/python3.8/dist-packages/flask/cli.py", line 986, in main
+    cli.main()
+  File "/usr/local/lib/python3.8/dist-packages/flask/cli.py", line 567, in main
+    return super().main(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/usr/local/lib/python3.8/dist-packages/click/core.py", line 1657, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/usr/local/lib/python3.8/dist-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/usr/local/lib/python3.8/dist-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/click/decorators.py", line 84, in new_func
+    return ctx.invoke(f, obj, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/flask/cli.py", line 848, in run_command
+    app = DispatchingApp(info.load_app, use_eager_loading=eager_loading)
+  File "/usr/local/lib/python3.8/dist-packages/flask/cli.py", line 279, in __init__
+    self._load_unlocked()
+  File "/usr/local/lib/python3.8/dist-packages/flask/cli.py", line 313, in _load_unlocked
+    self._app = rv = self.loader()
+  File "/usr/local/lib/python3.8/dist-packages/flask/cli.py", line 369, in load_app
+    app = locate_app(import_name, name)
+  File "/usr/local/lib/python3.8/dist-packages/flask/cli.py", line 214, in locate_app
+    __import__(module_name)
+  File "/opt/app/server.py", line 59, in <module>
+    app.register_blueprint(bp,url_prefix='/app/')
+  File "/usr/local/lib/python3.8/dist-packages/flask/scaffold.py", line 50, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1022, in register_blueprint
+    blueprint.register(self, options)
+  File "/usr/local/lib/python3.8/dist-packages/flask/blueprints.py", line 295, in register
+    raise ValueError(
+ValueError: The name 'root' is already registered for this blueprint. Use 'name=' to provide a unique name.
