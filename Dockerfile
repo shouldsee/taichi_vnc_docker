@@ -10,7 +10,7 @@ RUN apt-get update && \
 RUN apt-get install -y moreutils
 RUN apt-get install -y curl wget
 RUN apt-get install -y build-essential gdb
-RUN apt-get install -y python3.8 python3-pip python3-apt 
+RUN apt-get install -y python3.8 python3-pip python3-apt
 RUN apt-get install -y python3-socks
 #RUN apt-get install -y software-properties-common gcc && \
 #    add-apt-repository -y ppa:deadsnakes/ppa
@@ -21,15 +21,19 @@ RUN apt-get install -y python3-socks
 ARG GITURL
 
 RUN python3 -m pip install -U pip
-RUN python3 -m pip install https://github.com/shouldsee/pype/tarball/0.0.5
+#RUN python3 -m pip install https://github.com/shouldsee/pype/tarball/0.0.5
+RUN python3 -m pip install https://github.com/shouldsee/pype/tarball/e8e9535
+# apt install libpng-dev
+# cp ./src/grace/ -T /usr/local/bin
+# 
+
 #RUN python3 -c "import pype; print(pype.__file__)" ; exit 1
 
-RUN x=/usr/local/lib/python3.8/dist-packages/pype/controller.py ; grep -ve "typeguard" $x  | sponge $x
+#RUN x=/usr/local/lib/python3.8/dist-packages/pype/controller.py ; grep -ve "typeguard" $x  | sponge $x
 
 RUN python3 -m pip install supervisor
 RUN python3 -m pip install flask==2.2.2
-RUN python3 -m pip install apiflask==1.1.3
-
+RUN python3 -m pip install apiflask==1.1.3 flask_wtf==1.0.1 wtforms==3.0.1
 #ADD ./app/ /opt/app
 
 
@@ -54,10 +58,7 @@ ENV APP_PORT=$APP_PORT
 #CMD
 #CMD cd /opt && python -m app.mdsrv --host 0.0.0.0 --port $APP_PORT --prefix /mdsrv 1>/data/stdout.log 2>/data/stderr.log
 
-RUN apt-get install -y strace
-
-
-CMD cd /data/; export FLASK_APP=/opt/app/server.py; \
+CMD cd /data/; export FLASK_APP=/opt/app/server.py; export FLASK_DEBUG=1; \
   x=stderr-`date -Is`.log; touch $x; \
   ln -f $x ./ stderr-last.log; \
-  python3 -m flask run -p 9002 -h 0.0.0.0 --reload  2>&1 | tee stderr-last.log
+  python3 -m flask run -p 9002 -h 0.0.0.0 --reload >stderr-last.log 2>&1

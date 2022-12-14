@@ -1,5 +1,12 @@
 services:
   main:
+    build: 
+      context: .
+      args:
+        APP_PORT: 9002
+        HTTPS_PROXY: socks5h://192.168.50.132:1090
+        HTTP_PROXY: socks5h://192.168.50.132:1090
+        GITURL: http://192.168.50.132:10880/gogs     
 #  test:
     build:
       context: .
