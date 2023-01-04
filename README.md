@@ -16,4 +16,6 @@
 
 ## Performance
 
-- `python3 ./python/tachi/examples/ggui_examples/mpm128_ggui.py` : 16 fps on tesla M40
+- `python3 ./python/tachi/examples/ggui_examples/mpm128_ggui.py` .  on tesla M40
+  - noVNC web interface: 16.0 fps
+  - ssh X11 forwarding:  0.60 fps
