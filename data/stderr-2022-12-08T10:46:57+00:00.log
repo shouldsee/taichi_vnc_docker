@@ -1,3407 +1,0 @@
- * Serving Flask app '/opt/app/server.py' (lazy loading)
- * Environment: production
-   WARNING: This is a development server. Do not use it in a production deployment.
-   Use a production WSGI server instead.
- * Debug mode: off
-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:9002
- * Running on http://172.28.0.2:9002
-[33mPress CTRL+C to quit[0m
- * Restarting with stat
-192.168.50.123 - - [08/Dec/2022 10:46:58] "GET /docs HTTP/1.1" 200 -
-192.168.50.123 - - [08/Dec/2022 10:46:59] "GET /openapi.json HTTP/1.1" 200 -
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-192.168.50.123 - - [08/Dec/2022 13:59:29] "[35m[1mGET //app/pets/1 HTTP/1.1[0m" 500 -
-Error on request:
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.8/dist-packages/werkzeug/serving.py", line 335, in run_wsgi
-    execute(self.server.app)
-  File "/usr/local/lib/python3.8/dist-packages/werkzeug/serving.py", line 322, in execute
-    application_iter = app(environ, start_response)
-  File "/opt/app/server.py", line 74, in <module>
-    @app.input(MdMessage)
-NameError: name 'MdMessage' is not defined
-192.168.50.123 - - [08/Dec/2022 13:59:34] "[35m[1mGET /docs/ HTTP/1.1[0m" 500 -
-Error on request:
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.8/dist-packages/werkzeug/serving.py", line 335, in run_wsgi
-    execute(self.server.app)
-  File "/usr/local/lib/python3.8/dist-packages/werkzeug/serving.py", line 322, in execute
-    application_iter = app(environ, start_response)
-  File "/opt/app/server.py", line 74, in <module>
-    @app.input(MdMessage)
-NameError: name 'MdMessage' is not defined
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-192.168.50.123 - - [08/Dec/2022 14:00:32] "[33mGET /docs/ HTTP/1.1[0m" 404 -
-192.168.50.123 - - [08/Dec/2022 14:00:35] "[33mGET /gcat/docs/ HTTP/1.1[0m" 404 -
-192.168.50.123 - - [08/Dec/2022 14:00:38] "[33mGET /gcat/docs HTTP/1.1[0m" 404 -
-192.168.50.123 - - [08/Dec/2022 14:00:48] "[33mGET /gcat/docs HTTP/1.1[0m" 404 -
-192.168.50.123 - - [08/Dec/2022 14:00:55] "GET /docs HTTP/1.1" 200 -
-192.168.50.123 - - [08/Dec/2022 14:00:55] "GET /openapi.json HTTP/1.1" 200 -
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-192.168.50.123 - - [08/Dec/2022 14:01:16] "GET /docs HTTP/1.1" 200 -
-192.168.50.123 - - [08/Dec/2022 14:01:16] "GET /openapi.json HTTP/1.1" 200 -
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-192.168.50.123 - - [08/Dec/2022 14:02:48] "GET /docs HTTP/1.1" 200 -
-192.168.50.123 - - [08/Dec/2022 14:02:48] "GET /openapi.json HTTP/1.1" 200 -
-192.168.50.123 - - [08/Dec/2022 14:03:05] "POST /gcat/md_simple/ HTTP/1.1" 200 -
-192.168.50.123 - - [08/Dec/2022 14:03:06] "POST /gcat/md_simple/ HTTP/1.1" 200 -
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-192.168.50.123 - - [08/Dec/2022 14:03:18] "POST /gcat/md_simple/ HTTP/1.1" 200 -
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-[2022-12-08 14:14:53,639] ERROR in app: Exception on /gcat/md_simple/ [POST]
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1519, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1517, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/usr/local/lib/python3.8/dist-packages/apiflask/app.py", line 432, in dispatch_request
-    return view_function(*req.view_args.values())  # type: ignore
-  File "/usr/local/lib/python3.8/dist-packages/webargs/core.py", line 594, in wrapper
-    return func(*args, **kwargs)
-  File "/usr/local/lib/python3.8/dist-packages/apiflask/scaffold.py", line 90, in wrapper
-    return current_app.ensure_sync(f)(*args, **kwargs)
-  File "/opt/app/server.py", line 89, in simple_md
-    shex = str2hex(sorted(data.__dict__.items()))
-AttributeError: 'dict' object has no attribute '__dict__'
-192.168.50.123 - - [08/Dec/2022 14:14:53] "[35m[1mPOST /gcat/md_simple/ HTTP/1.1[0m" 500 -
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-[2022-12-08 14:15:08,076] ERROR in app: Exception on /gcat/md_simple/ [POST]
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1519, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1517, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/usr/local/lib/python3.8/dist-packages/apiflask/app.py", line 432, in dispatch_request
-    return view_function(*req.view_args.values())  # type: ignore
-  File "/usr/local/lib/python3.8/dist-packages/webargs/core.py", line 594, in wrapper
-    return func(*args, **kwargs)
-  File "/usr/local/lib/python3.8/dist-packages/apiflask/scaffold.py", line 90, in wrapper
-    return current_app.ensure_sync(f)(*args, **kwargs)
-  File "/opt/app/server.py", line 89, in simple_md
-    shex = str2hex(sorted(data.items()))
-  File "/opt/app/server.py", line 5, in str2hex
-    return (hashlib.md5(x.encode(encoding)).hexdigest())
-AttributeError: 'list' object has no attribute 'encode'
-192.168.50.123 - - [08/Dec/2022 14:15:08] "[35m[1mPOST /gcat/md_simple/ HTTP/1.1[0m" 500 -
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-192.168.50.123 - - [08/Dec/2022 14:16:07] "POST /gcat/md_simple/ HTTP/1.1" 200 -
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-192.168.50.123 - - [08/Dec/2022 14:16:19] "POST /gcat/md_simple/ HTTP/1.1" 200 -
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-192.168.50.123 - - [08/Dec/2022 14:22:03] "GET /docs HTTP/1.1" 200 -
-192.168.50.123 - - [08/Dec/2022 14:22:03] "GET /openapi.json HTTP/1.1" 200 -
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-192.168.50.123 - - [08/Dec/2022 14:22:27] "GET /docs HTTP/1.1" 200 -
-192.168.50.123 - - [08/Dec/2022 14:22:27] "GET /openapi.json HTTP/1.1" 200 -
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-192.168.50.123 - - [08/Dec/2022 14:25:39] "GET /docs HTTP/1.1" 200 -
-192.168.50.123 - - [08/Dec/2022 14:25:39] "GET /openapi.json HTTP/1.1" 200 -
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-192.168.50.123 - - [08/Dec/2022 14:25:57] "GET /docs HTTP/1.1" 200 -
-192.168.50.123 - - [08/Dec/2022 14:25:58] "GET /openapi.json HTTP/1.1" 200 -
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-192.168.50.123 - - [08/Dec/2022 14:26:12] "GET /docs HTTP/1.1" 200 -
-192.168.50.123 - - [08/Dec/2022 14:26:13] "GET /openapi.json HTTP/1.1" 200 -
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-192.168.50.123 - - [08/Dec/2022 14:26:43] "GET /docs HTTP/1.1" 200 -
-192.168.50.123 - - [08/Dec/2022 14:26:43] "GET /openapi.json HTTP/1.1" 200 -
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-192.168.50.123 - - [08/Dec/2022 14:26:51] "GET /docs HTTP/1.1" 200 -
-192.168.50.123 - - [08/Dec/2022 14:26:52] "GET /openapi.json HTTP/1.1" 200 -
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/task_gromacs.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/task_gromacs.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/task_gromacs.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/task_gromacs.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/task_gromacs.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/task_gromacs.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/task_gromacs.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-192.168.50.123 - - [08/Dec/2022 14:51:44] "[35m[1mGET /docs HTTP/1.1[0m" 500 -
-Error on request:
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.8/dist-packages/werkzeug/serving.py", line 335, in run_wsgi
-    execute(self.server.app)
-  File "/usr/local/lib/python3.8/dist-packages/werkzeug/serving.py", line 322, in execute
-    application_iter = app(environ, start_response)
-  File "/opt/app/server.py", line 93
-    elif struct.startswith('rcsb://')
-                                    ^
-SyntaxError: invalid syntax
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-192.168.50.123 - - [08/Dec/2022 14:52:25] "GET /docs HTTP/1.1" 200 -
-192.168.50.123 - - [08/Dec/2022 14:52:25] "GET /openapi.json HTTP/1.1" 200 -
-[2022-12-08 14:52:46,928] ERROR in app: Exception on /gcat/md_simple/ [POST]
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2073, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1519, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1517, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "/usr/local/lib/python3.8/dist-packages/apiflask/app.py", line 432, in dispatch_request
-    return view_function(*req.view_args.values())  # type: ignore
-  File "/usr/local/lib/python3.8/dist-packages/webargs/core.py", line 594, in wrapper
-    return func(*args, **kwargs)
-  File "/usr/local/lib/python3.8/dist-packages/apiflask/scaffold.py", line 90, in wrapper
-    return current_app.ensure_sync(f)(*args, **kwargs)
-  File "/opt/app/server.py", line 109, in simple_md
-    outdir = args.rundir+'/'+struct + '/' + str(md_steps)
-NameError: name 'args' is not defined
-192.168.50.123 - - [08/Dec/2022 14:52:46] "[35m[1mPOST /gcat/md_simple/ HTTP/1.1[0m" 500 -
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-                     :-) GROMACS - gmx pdb2gmx, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi pdb2gmx -f 1PGB.pdb -o 1PGB_processed.gro -water spce -ff charmm27
-
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.r2b
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.r2b
-there were 0 atoms with zero occupancy and 16 atoms with          occupancy unequal to one (out of 460 atoms). Check your pdb file.
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/atomtypes.atp
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.rtp
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.rtp
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/lipids.rtp
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.rtp
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.hdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.hdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/lipids.hdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.hdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.n.tdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.n.tdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.n.tdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.c.tdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.c.tdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.c.tdb
-8 out of 8 lines of specbond.dat converted successfully
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.arn
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.arn
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.arn
-Before cleaning: 2257 pairs
-Before cleaning: 2262 dihedrals
-8 out of 8 lines of specbond.dat converted successfully
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.arn
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.arn
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.arn
-
-GROMACS reminds you: "You Fill Me With Inertia" (The Long Blondes)
-
-Using the Charmm27 force field in directory charmm27.ff
-
-going to rename charmm27.ff/aminoacids.r2b
-
-going to rename charmm27.ff/rna.r2b
-Reading 1PGB.pdb...
-Read 'PROTEIN G', 460 atoms
-
-Analyzing pdb file
-Splitting chemical chains based on TER records or chain id changing.
-
-There are 1 chains and 1 blocks of water and 80 residues with 460 atoms
-
-  chain  #res #atoms
-
-  1 'A'    56    436  
-
-  2 ' '    24     24  (only water)
-
-there were 0 atoms with zero occupancy and 16 atoms with          occupancy unequal to one (out of 460 atoms). Check your pdb file.
-
-Reading residue database... (Charmm27)
-
-Processing chain 1 'A' (436 atoms, 56 residues)
-
-Identified residue MET1 as a starting terminus.
-
-Identified residue GLU56 as a ending terminus.
-Start terminus MET-1: NH3+
-End terminus GLU-56: COO-
-
-Checking for duplicate atoms....
-
-Generating any missing hydrogen atoms and/or adding termini.
-
-Now there are 56 residues with 855 atoms
-
-Making bonds...
-
-Number of bonds was 861, now 861
-
-Generating angles, dihedrals and pairs...
-
-Making cmap torsions...
-
-There are   54 cmap torsion pairs
-
-There are 2262 dihedrals,  137 impropers, 1551 angles
-          2239 pairs,      861 bonds and     0 virtual sites
-
-Total mass 6191.790 a.m.u.
-
-Total charge -4.000 e
-
-Writing topology
-
-Processing chain 2 (24 atoms, 24 residues)
-
-Problem with chain definition, or missing terminal residues. This chain does not appear to contain a recognized chain molecule. If this is incorrect, you can edit residuetypes.dat to modify the behavior.
-
-Checking for duplicate atoms....
-
-Generating any missing hydrogen atoms and/or adding termini.
-
-Now there are 24 residues with 72 atoms
-
-Making bonds...
-
-Number of bonds was 72, now 72
-
-Generating angles, dihedrals and pairs...
-
-Making cmap torsions...
-
-There are    0 dihedrals,    0 impropers,   72 angles
-             0 pairs,       72 bonds and     0 virtual sites
-
-Total mass 432.370 a.m.u.
-
-Total charge 0.000 e
-
-Including chain 1 in system: 855 atoms 56 residues
-
-Including chain 2 in system: 72 atoms 24 residues
-
-Now there are 927 atoms and 80 residues
-
-Total mass in system 6624.159 a.m.u.
-
-Total charge in system -4.000 e
-
-Writing coordinate file...
-
-		--------- PLEASE NOTE ------------
-
-You have successfully generated a topology from: 1PGB.pdb.
-
-The Charmm27 force field and the spce water model are used.
-
-		--------- ETON ESAELP ------------
-                     :-) GROMACS - gmx editconf, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi editconf -f 1PGB_processed.gro -o 1PGB_newbox.gro -c -d 1.0
-
-
-GROMACS reminds you: "You Fill Me With Inertia" (The Long Blondes)
-
-Note that major changes are planned in future for editconf, to improve usability and utility.
-Read 927 atoms
-Volume: 92.1079 nm^3, corresponds to roughly 41400 electrons
-No velocities found
-    system size :  3.035  2.194  3.407 (nm)
-    center      :  0.854  1.298  1.802 (nm)
-    box vectors :  3.663  3.663  7.925 (nm)
-    box angles  :  90.00  90.00 120.00 (degrees)
-    box volume  :  92.11               (nm^3)
-    shift       :  1.663  0.799  0.902 (nm)
-new center      :  2.518  2.097  2.704 (nm)
-new box vectors :  5.035  4.194  5.407 (nm)
-new box angles  :  90.00  90.00  90.00 (degrees)
-new box volume  : 114.18               (nm^3)
-
-WARNING: No boxtype specified - distance condition applied in each dimension.
-If the molecule rotates the actual distance will be smaller. You might want
-to use a cubic box instead, or why not try a dodecahedron today?
-                     :-) GROMACS - gmx solvate, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi solvate -cp 1PGB_newbox.gro -o 1PGB_solv.gro -cs spc216.gro -p topol.top
-
-Reading solute configuration
-Reading solvent configuration
-
-Initialising inter-atomic distances...
-
-WARNING: Masses and atomic (Van der Waals) radii will be guessed
-         based on residue and atom names, since they could not be
-         definitively assigned from the information in your input
-         files. These guessed numbers might deviate from the mass
-         and radius of the atom type. Please check the output
-         files if necessary. Note, that this functionality may
-         be removed in a future GROMACS version. Please, consider
-         using another file format for your input.
-
-NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
-from the source below. This means the results may be different
-compared to previous GROMACS versions.
-
-++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
-A. Bondi
-van der Waals Volumes and Radii
-J. Phys. Chem. 68 (1964) pp. 441-451
--------- -------- --- Thank You --- -------- --------
-
-Generating solvent configuration
-Will generate new solvent configuration of 3x3x3 boxes
-Solvent box contains 13464 atoms in 4488 residues
-Removed 2397 solvent atoms due to solvent-solvent overlap
-Removed 903 solvent atoms due to solute-solvent overlap
-Sorting configuration
-Found 1 molecule type:
-    SOL (   3 atoms):  3388 residues
-Generated solvent containing 10164 atoms in 3388 residues
-Writing generated configuration to 1PGB_solv.gro
-
-Output configuration contains 11091 atoms in 3468 residues
-Volume                 :     114.178 (nm^3)
-Density                :     989.975 (g/l)
-Number of solvent molecules:   3388   
-
-Processing topology
-
-Back Off! I just backed up topol.top to ./#topol.top.1#
-
-GROMACS reminds you: "You Fill Me With Inertia" (The Long Blondes)
-
-Adding line for 3388 solvent molecules with resname (SOL) to topology file (topol.top)
-                      :-) GROMACS - gmx grompp, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi grompp -f ions.mdp -c 1PGB_solv.gro -p topol.top -o ions.tpr
-
-Ignoring obsolete mdp entry 'ns_type'
-
-NOTE 1 [file ions.mdp]:
-  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
-  that with the Verlet scheme, nstlist has no effect on the accuracy of
-  your simulation.
-
-Generating 1-4 interactions: fudge = 1
-
-NOTE 2 [file topol.top, line 8089]:
-  System has non-zero total charge: -4.000000
-  Total charge should normally be an integer. See
-  http://www.gromacs.org/Documentation/Floating_Point_Arithmetic
-  for discussion on how close it should be to an integer.
-  
-
-
-Number of degrees of freedom in T-Coupling group rest is 23034.00
-
-NOTE 3 [file ions.mdp]:
-  You are using a plain Coulomb cut-off, which might produce artifacts.
-  You might want to consider using PME electrostatics.
-
-
-
-There were 3 notes
-
-GROMACS reminds you: "Keep Your Shoes and Socks On, People" (F. Zappa)
-
-Setting the LD random seed to 2094758091
-
-Generated 20503 of the 20503 non-bonded parameter combinations
-
-Generated 17396 of the 20503 1-4 parameter combinations
-
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-Analysing residue names:
-There are:    56    Protein residues
-There are:  3412      Water residues
-Analysing Protein...
-
-This run will generate roughly 1 Mb of data
-                      :-) GROMACS - gmx genion, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi genion -s ions.tpr -o 1PGB_solv_ions.gro -p topol.top -pname NA -nname CL -neutral
-
-Reading file ions.tpr, VERSION 2022.2 (single precision)
-Reading file ions.tpr, VERSION 2022.2 (single precision)
-Group     0 (         System) has 11091 elements
-Group     1 (        Protein) has   855 elements
-Group     2 (      Protein-H) has   436 elements
-Group     3 (        C-alpha) has    56 elements
-Group     4 (       Backbone) has   168 elements
-Group     5 (      MainChain) has   223 elements
-Group     6 (   MainChain+Cb) has   275 elements
-Group     7 (    MainChain+H) has   281 elements
-Group     8 (      SideChain) has   574 elements
-Group     9 (    SideChain-H) has   213 elements
-Group    10 (    Prot-Masses) has   855 elements
-Group    11 (    non-Protein) has 10236 elements
-Group    12 (          Water) has 10236 elements
-Group    13 (            SOL) has 10236 elements
-Group    14 (      non-Water) has   855 elements
-Select a group: Number of (3-atomic) solvent molecules: 3412
-
-Back Off! I just backed up topol.top to ./#topol.top.2#
-Using random seed -4211743.
-Replacing solvent molecule 472 (atom 2271) with NA
-Replacing solvent molecule 2634 (atom 8757) with NA
-Replacing solvent molecule 1765 (atom 6150) with NA
-Replacing solvent molecule 2629 (atom 8742) with NA
-
-
-GROMACS reminds you: "Keep Your Shoes and Socks On, People" (F. Zappa)
-
-Will try to add 4 NA ions and 0 CL ions.
-Select a continuous group of solvent molecules
-Selected 13: 'SOL'
-
-Processing topology
-Replacing 4 solute molecules in topology file (topol.top)  by 4 NA and 0 CL ions.
-                      :-) GROMACS - gmx grompp, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi grompp -o em.tpr -f minim.mdp -c 1PGB_solv_ions.gro -p topol.top
-
-Ignoring obsolete mdp entry 'ns_type'
-
-NOTE 1 [file minim.mdp]:
-  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
-  that with the Verlet scheme, nstlist has no effect on the accuracy of
-  your simulation.
-
-Generating 1-4 interactions: fudge = 1
-Number of degrees of freedom in T-Coupling group rest is 23022.00
-
-There was 1 note
-
-GROMACS reminds you: "Keep Your Shoes and Socks On, People" (F. Zappa)
-
-Setting the LD random seed to -231445
-
-Generated 20503 of the 20503 non-bonded parameter combinations
-
-Generated 17396 of the 20503 1-4 parameter combinations
-
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 1 bonded neighbours molecule type 'NA'
-Analysing residue names:
-There are:    56    Protein residues
-There are:  3408      Water residues
-There are:     4        Ion residues
-Analysing Protein...
-Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
-
-The largest distance between excluded atoms is 0.396 nm
-Calculating fourier grid dimensions for X Y Z
-Using a fourier grid of 42x36x48, spacing 0.120 0.116 0.113
-
-Estimate for the relative computational load of the PME mesh part: 0.25
-
-This run will generate roughly 1 Mb of data
-                      :-) GROMACS - gmx mdrun, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi mdrun -v -deffnm em
-
-The current CPU can measure timings more accurately than the code in
-gmx mdrun was configured to use. This might affect your simulation
-speed as accurate timings are needed for load-balancing.
-Please consider rebuilding gmx mdrun with the GMX_USE_RDTSCP=ON CMake option.
-Reading file em.tpr, VERSION 2022.2 (single precision)
-
-GPU-aware MPI detected, but by default GROMACS will not make use the direct GPU communication capabilities of MPI. For improved performance try enabling the feature by setting the GMX_ENABLE_DIRECT_GPU_COMM environment variable.
-
-1 GPU selected for this run.
-Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
-  PP:0
-PP tasks will do (non-perturbed) short-ranged interactions on the GPU
-PP task will update and constrain coordinates on the CPU
-Using 1 MPI process
-Using 12 OpenMP threads 
-
-
-Steepest Descents:
-   Tolerance (Fmax)   =  1.00000e+03
-   Number of steps    =        50000
-Step=    0, Dmax= 1.0e-02 nm, Epot= -6.53260e+04 Fmax= 1.41827e+05, atom= 910
-Step=    1, Dmax= 1.0e-02 nm, Epot= -7.85380e+04 Fmax= 4.12010e+04, atom= 10729
-Step=    2, Dmax= 1.2e-02 nm, Epot= -1.01033e+05 Fmax= 1.58677e+04, atom= 11053
-Step=    3, Dmax= 1.4e-02 nm, Epot= -1.18435e+05 Fmax= 7.06035e+03, atom= 1213
-Step=    4, Dmax= 1.7e-02 nm, Epot= -1.29613e+05 Fmax= 3.45382e+03, atom= 5959
-Step=    5, Dmax= 2.1e-02 nm, Epot= -1.37553e+05 Fmax= 2.19688e+04, atom= 606
-Step=    6, Dmax= 2.5e-02 nm, Epot= -1.39923e+05 Fmax= 8.23841e+03, atom= 606
-Step=    7, Dmax= 3.0e-02 nm, Epot= -1.41370e+05 Fmax= 2.76198e+04, atom= 606
-Step=    8, Dmax= 3.6e-02 nm, Epot= -1.42971e+05 Fmax= 1.55875e+04, atom= 606
-Step=    9, Dmax= 4.3e-02 nm, Epot= -1.41144e+05 Fmax= 3.63350e+04, atom= 606Step=   10, Dmax= 2.1e-02 nm, Epot= -1.43989e+05 Fmax= 1.03576e+04, atom= 606
-Step=   11, Dmax= 2.6e-02 nm, Epot= -1.43727e+05 Fmax= 2.33083e+04, atom= 381Step=   12, Dmax= 1.3e-02 nm, Epot= -1.44894e+05 Fmax= 6.55722e+03, atom= 381
-Step=   13, Dmax= 1.5e-02 nm, Epot= -1.45536e+05 Fmax= 1.43454e+04, atom= 381
-Step=   14, Dmax= 1.9e-02 nm, Epot= -1.46483e+05 Fmax= 1.06897e+04, atom= 569
-Step=   15, Dmax= 2.2e-02 nm, Epot= -1.46539e+05 Fmax= 2.01152e+04, atom= 569
-Step=   16, Dmax= 2.7e-02 nm, Epot= -1.47564e+05 Fmax= 1.61976e+04, atom= 569
-Step=   17, Dmax= 3.2e-02 nm, Epot= -1.46932e+05 Fmax= 2.80909e+04, atom= 569Step=   18, Dmax= 1.6e-02 nm, Epot= -1.48659e+05 Fmax= 5.68095e+03, atom= 569
-Step=   19, Dmax= 1.9e-02 nm, Epot= -1.48887e+05 Fmax= 2.01800e+04, atom= 569
-Step=   20, Dmax= 2.3e-02 nm, Epot= -1.50078e+05 Fmax= 1.13533e+04, atom= 569
-Step=   21, Dmax= 2.8e-02 nm, Epot= -1.49390e+05 Fmax= 2.59545e+04, atom= 569Step=   22, Dmax= 1.4e-02 nm, Epot= -1.50683e+05 Fmax= 7.47699e+03, atom= 569
-Step=   23, Dmax= 1.7e-02 nm, Epot= -1.50940e+05 Fmax= 1.54285e+04, atom= 569
-Step=   24, Dmax= 2.0e-02 nm, Epot= -1.51590e+05 Fmax= 1.17120e+04, atom= 569
-Step=   25, Dmax= 2.4e-02 nm, Epot= -1.51435e+05 Fmax= 2.12624e+04, atom= 569Step=   26, Dmax= 1.2e-02 nm, Epot= -1.52184e+05 Fmax= 4.62903e+03, atom= 569
-Step=   27, Dmax= 1.4e-02 nm, Epot= -1.52561e+05 Fmax= 1.47399e+04, atom= 569
-Step=   28, Dmax= 1.7e-02 nm, Epot= -1.53226e+05 Fmax= 8.80712e+03, atom= 569
-Step=   29, Dmax= 2.1e-02 nm, Epot= -1.53053e+05 Fmax= 1.91305e+04, atom= 569Step=   30, Dmax= 1.0e-02 nm, Epot= -1.53655e+05 Fmax= 5.26358e+03, atom= 569
-Step=   31, Dmax= 1.2e-02 nm, Epot= -1.53955e+05 Fmax= 1.18247e+04, atom= 569
-Step=   32, Dmax= 1.5e-02 nm, Epot= -1.54428e+05 Fmax= 8.45331e+03, atom= 569
-Step=   33, Dmax= 1.8e-02 nm, Epot= -1.54421e+05 Fmax= 1.61362e+04, atom= 569Step=   34, Dmax= 8.9e-03 nm, Epot= -1.54823e+05 Fmax= 3.76040e+03, atom= 569
-Step=   35, Dmax= 1.1e-02 nm, Epot= -1.55167e+05 Fmax= 1.10519e+04, atom= 645
-Step=   36, Dmax= 1.3e-02 nm, Epot= -1.55626e+05 Fmax= 7.23844e+03, atom= 645
-Step=   37, Dmax= 1.5e-02 nm, Epot= -1.55712e+05 Fmax= 1.49243e+04, atom= 645
-Step=   38, Dmax= 1.9e-02 nm, Epot= -1.56183e+05 Fmax= 1.13560e+04, atom= 645
-Step=   39, Dmax= 2.2e-02 nm, Epot= -1.56060e+05 Fmax= 2.05860e+04, atom= 645Step=   40, Dmax= 1.1e-02 nm, Epot= -1.56611e+05 Fmax= 4.00865e+03, atom= 645
-Step=   41, Dmax= 1.3e-02 nm, Epot= -1.56868e+05 Fmax= 1.44800e+04, atom= 645
-Step=   42, Dmax= 1.6e-02 nm, Epot= -1.57373e+05 Fmax= 7.81454e+03, atom= 645
-Step=   43, Dmax= 1.9e-02 nm, Epot= -1.57274e+05 Fmax= 1.85768e+04, atom= 645Step=   44, Dmax= 9.6e-03 nm, Epot= -1.57644e+05 Fmax= 5.82593e+03, atom= 645
-Step=   45, Dmax= 1.2e-02 nm, Epot= -1.57871e+05 Fmax= 1.06012e+04, atom= 645
-Step=   46, Dmax= 1.4e-02 nm, Epot= -1.58143e+05 Fmax= 8.95148e+03, atom= 645
-Step=   47, Dmax= 1.7e-02 nm, Epot= -1.58265e+05 Fmax= 1.47496e+04, atom= 645
-Step=   48, Dmax= 2.0e-02 nm, Epot= -1.58530e+05 Fmax= 1.33340e+04, atom= 645
-Step=   49, Dmax= 2.4e-02 nm, Epot= -1.58498e+05 Fmax= 2.08347e+04, atom= 645Step=   50, Dmax= 1.2e-02 nm, Epot= -1.58922e+05 Fmax= 3.06201e+03, atom= 645
-Step=   51, Dmax= 1.4e-02 nm, Epot= -1.59235e+05 Fmax= 1.67462e+04, atom= 645
-Step=   52, Dmax= 1.7e-02 nm, Epot= -1.59736e+05 Fmax= 7.09730e+03, atom= 645
-Step=   53, Dmax= 2.1e-02 nm, Epot= -1.59566e+05 Fmax= 2.10040e+04, atom= 645Step=   54, Dmax= 1.0e-02 nm, Epot= -1.59937e+05 Fmax= 7.44521e+03, atom= 645
-Step=   55, Dmax= 1.2e-02 nm, Epot= -1.60113e+05 Fmax= 1.01422e+04, atom= 645
-Step=   56, Dmax= 1.5e-02 nm, Epot= -1.60292e+05 Fmax= 1.07491e+04, atom= 645
-Step=   57, Dmax= 1.8e-02 nm, Epot= -1.60405e+05 Fmax= 1.45984e+04, atom= 645
-Step=   58, Dmax= 2.1e-02 nm, Epot= -1.60546e+05 Fmax= 1.54116e+04, atom= 645
-Step=   59, Dmax= 2.6e-02 nm, Epot= -1.60540e+05 Fmax= 2.11324e+04, atom= 645Step=   60, Dmax= 1.3e-02 nm, Epot= -1.60965e+05 Fmax= 2.08240e+03, atom= 645
-Step=   61, Dmax= 1.5e-02 nm, Epot= -1.61377e+05 Fmax= 1.92406e+04, atom= 645
-Step=   62, Dmax= 1.9e-02 nm, Epot= -1.61959e+05 Fmax= 6.31375e+03, atom= 645
-Step=   63, Dmax= 2.2e-02 nm, Epot= -1.61651e+05 Fmax= 2.34823e+04, atom= 645Step=   64, Dmax= 1.1e-02 nm, Epot= -1.62102e+05 Fmax= 9.12086e+03, atom= 645
-Step=   65, Dmax= 1.3e-02 nm, Epot= -1.62259e+05 Fmax= 9.69209e+03, atom= 645
-Step=   66, Dmax= 1.6e-02 nm, Epot= -1.62349e+05 Fmax= 1.26238e+04, atom= 645
-Step=   67, Dmax= 1.9e-02 nm, Epot= -1.62470e+05 Fmax= 1.44775e+04, atom= 645
-Step=   68, Dmax= 2.3e-02 nm, Epot= -1.62487e+05 Fmax= 1.75904e+04, atom= 645
-Step=   69, Dmax= 2.8e-02 nm, Epot= -1.62515e+05 Fmax= 2.14846e+04, atom= 645
-Step=   70, Dmax= 3.3e-02 nm, Epot= -1.62414e+05 Fmax= 2.45485e+04, atom= 645Step=   71, Dmax= 1.7e-02 nm, Epot= -1.63124e+05 Fmax= 2.84497e+03, atom= 645
-Step=   72, Dmax= 2.0e-02 nm, Epot= -1.63139e+05 Fmax= 2.58729e+04, atom= 645
-Step=   73, Dmax= 2.4e-02 nm, Epot= -1.63833e+05 Fmax= 8.62867e+03, atom= 645
-Step=   74, Dmax= 2.9e-02 nm, Epot= -1.63015e+05 Fmax= 3.38211e+04, atom= 645Step=   75, Dmax= 1.4e-02 nm, Epot= -1.63925e+05 Fmax= 1.17170e+04, atom= 645
-Step=   76, Dmax= 1.7e-02 nm, Epot= -1.64029e+05 Fmax= 1.23275e+04, atom= 645
-Step=   77, Dmax= 2.1e-02 nm, Epot= -1.64046e+05 Fmax= 1.69230e+04, atom= 645
-Step=   78, Dmax= 2.5e-02 nm, Epot= -1.64109e+05 Fmax= 1.76511e+04, atom= 645
-Step=   79, Dmax= 3.0e-02 nm, Epot= -1.63979e+05 Fmax= 2.45095e+04, atom= 645Step=   80, Dmax= 1.5e-02 nm, Epot= -1.64562e+05 Fmax= 2.41230e+03, atom= 645
-Step=   81, Dmax= 1.8e-02 nm, Epot= -1.64554e+05 Fmax= 2.21590e+04, atom= 645Step=   82, Dmax= 8.9e-03 nm, Epot= -1.64759e+05 Fmax= 1.01970e+04, atom= 645
-Step=   83, Dmax= 1.1e-02 nm, Epot= -1.64953e+05 Fmax= 4.78497e+03, atom= 645
-Step=   84, Dmax= 1.3e-02 nm, Epot= -1.64999e+05 Fmax= 1.28245e+04, atom= 645
-Step=   85, Dmax= 1.5e-02 nm, Epot= -1.65213e+05 Fmax= 8.63010e+03, atom= 645
-Step=   86, Dmax= 1.8e-02 nm, Epot= -1.65118e+05 Fmax= 1.68383e+04, atom= 645Step=   87, Dmax= 9.2e-03 nm, Epot= -1.65362e+05 Fmax= 4.50676e+03, atom= 645
-Step=   88, Dmax= 1.1e-02 nm, Epot= -1.65437e+05 Fmax= 1.12906e+04, atom= 645
-Step=   89, Dmax= 1.3e-02 nm, Epot= -1.65606e+05 Fmax= 7.53618e+03, atom= 645
-Step=   90, Dmax= 1.6e-02 nm, Epot= -1.65576e+05 Fmax= 1.52776e+04, atom= 645Step=   91, Dmax= 8.0e-03 nm, Epot= -1.65740e+05 Fmax= 3.56149e+03, atom= 645
-Step=   92, Dmax= 9.6e-03 nm, Epot= -1.65845e+05 Fmax= 9.73638e+03, atom= 645
-Step=   93, Dmax= 1.1e-02 nm, Epot= -1.66002e+05 Fmax= 6.31163e+03, atom= 645
-Step=   94, Dmax= 1.4e-02 nm, Epot= -1.66010e+05 Fmax= 1.27744e+04, atom= 645
-Step=   95, Dmax= 1.7e-02 nm, Epot= -1.66181e+05 Fmax= 1.03619e+04, atom= 645
-Step=   96, Dmax= 2.0e-02 nm, Epot= -1.66078e+05 Fmax= 1.70824e+04, atom= 645Step=   97, Dmax= 9.9e-03 nm, Epot= -1.66355e+05 Fmax= 3.83341e+03, atom= 645
-Step=   98, Dmax= 1.2e-02 nm, Epot= -1.66399e+05 Fmax= 1.31979e+04, atom= 645
-Step=   99, Dmax= 1.4e-02 nm, Epot= -1.66609e+05 Fmax= 7.12506e+03, atom= 645
-Step=  100, Dmax= 1.7e-02 nm, Epot= -1.66495e+05 Fmax= 1.75225e+04, atom= 645Step=  101, Dmax= 8.6e-03 nm, Epot= -1.66724e+05 Fmax= 4.84268e+03, atom= 645
-Step=  102, Dmax= 1.0e-02 nm, Epot= -1.66788e+05 Fmax= 9.48258e+03, atom= 645
-Step=  103, Dmax= 1.2e-02 nm, Epot= -1.66913e+05 Fmax= 7.81783e+03, atom= 645
-Step=  104, Dmax= 1.5e-02 nm, Epot= -1.66910e+05 Fmax= 1.27610e+04, atom= 645Step=  105, Dmax= 7.4e-03 nm, Epot= -1.67038e+05 Fmax= 2.74033e+03, atom= 645
-Step=  106, Dmax= 8.9e-03 nm, Epot= -1.67149e+05 Fmax= 9.92387e+03, atom= 645
-Step=  107, Dmax= 1.1e-02 nm, Epot= -1.67297e+05 Fmax= 5.21386e+03, atom= 645
-Step=  108, Dmax= 1.3e-02 nm, Epot= -1.67293e+05 Fmax= 1.31012e+04, atom= 645Step=  109, Dmax= 6.4e-03 nm, Epot= -1.67391e+05 Fmax= 3.74234e+03, atom= 645
-Step=  110, Dmax= 7.7e-03 nm, Epot= -1.67478e+05 Fmax= 6.98582e+03, atom= 645
-Step=  111, Dmax= 9.2e-03 nm, Epot= -1.67578e+05 Fmax= 5.94668e+03, atom= 645
-Step=  112, Dmax= 1.1e-02 nm, Epot= -1.67624e+05 Fmax= 9.47562e+03, atom= 645
-Step=  113, Dmax= 1.3e-02 nm, Epot= -1.67722e+05 Fmax= 9.16956e+03, atom= 645
-Step=  114, Dmax= 1.6e-02 nm, Epot= -1.67716e+05 Fmax= 1.30033e+04, atom= 645Step=  115, Dmax= 8.0e-03 nm, Epot= -1.67864e+05 Fmax= 2.22834e+03, atom= 645
-Step=  116, Dmax= 9.6e-03 nm, Epot= -1.67980e+05 Fmax= 1.13992e+04, atom= 645
-Step=  117, Dmax= 1.1e-02 nm, Epot= -1.68155e+05 Fmax= 4.92232e+03, atom= 645
-Step=  118, Dmax= 1.4e-02 nm, Epot= -1.68099e+05 Fmax= 1.48535e+04, atom= 645Step=  119, Dmax= 6.9e-03 nm, Epot= -1.68238e+05 Fmax= 4.73399e+03, atom= 645
-Step=  120, Dmax= 8.3e-03 nm, Epot= -1.68308e+05 Fmax= 6.81983e+03, atom= 645
-Step=  121, Dmax= 9.9e-03 nm, Epot= -1.68387e+05 Fmax= 7.11514e+03, atom= 645
-Step=  122, Dmax= 1.2e-02 nm, Epot= -1.68429e+05 Fmax= 9.50005e+03, atom= 645
-Step=  123, Dmax= 1.4e-02 nm, Epot= -1.68493e+05 Fmax= 1.05924e+04, atom= 645
-Step=  124, Dmax= 1.7e-02 nm, Epot= -1.68493e+05 Fmax= 1.32902e+04, atom= 645Step=  125, Dmax= 8.6e-03 nm, Epot= -1.68661e+05 Fmax= 1.71030e+03, atom= 645
-Step=  126, Dmax= 1.0e-02 nm, Epot= -1.68804e+05 Fmax= 1.29307e+04, atom= 645
-Step=  127, Dmax= 1.2e-02 nm, Epot= -1.69012e+05 Fmax= 4.65517e+03, atom= 645
-Step=  128, Dmax= 1.5e-02 nm, Epot= -1.68893e+05 Fmax= 1.67263e+04, atom= 645Step=  129, Dmax= 7.4e-03 nm, Epot= -1.69081e+05 Fmax= 5.76990e+03, atom= 645
-Step=  130, Dmax= 8.9e-03 nm, Epot= -1.69145e+05 Fmax= 6.67244e+03, atom= 645
-Step=  131, Dmax= 1.1e-02 nm, Epot= -1.69200e+05 Fmax= 8.34636e+03, atom= 645
-Step=  132, Dmax= 1.3e-02 nm, Epot= -1.69246e+05 Fmax= 9.55275e+03, atom= 645
-Step=  133, Dmax= 1.5e-02 nm, Epot= -1.69270e+05 Fmax= 1.21015e+04, atom= 645
-Step=  134, Dmax= 1.8e-02 nm, Epot= -1.69284e+05 Fmax= 1.36218e+04, atom= 645
-Step=  135, Dmax= 2.2e-02 nm, Epot= -1.69243e+05 Fmax= 1.76009e+04, atom= 645Step=  136, Dmax= 1.1e-02 nm, Epot= -1.69547e+05 Fmax= 1.41879e+03, atom= 645
-Step=  137, Dmax= 1.3e-02 nm, Epot= -1.69623e+05 Fmax= 1.70202e+04, atom= 645
-Step=  138, Dmax= 1.6e-02 nm, Epot= -1.70013e+05 Fmax= 4.96393e+03, atom= 645
-Step=  139, Dmax= 1.9e-02 nm, Epot= -1.69682e+05 Fmax= 2.06162e+04, atom= 645Step=  140, Dmax= 9.6e-03 nm, Epot= -1.70046e+05 Fmax= 8.22526e+03, atom= 645
-Step=  141, Dmax= 1.1e-02 nm, Epot= -1.70119e+05 Fmax= 7.86218e+03, atom= 645
-Step=  142, Dmax= 1.4e-02 nm, Epot= -1.70114e+05 Fmax= 1.12827e+04, atom= 645Step=  143, Dmax= 6.9e-03 nm, Epot= -1.70225e+05 Fmax= 1.93887e+03, atom= 645
-Step=  144, Dmax= 8.3e-03 nm, Epot= -1.70310e+05 Fmax= 9.79157e+03, atom= 645
-Step=  145, Dmax= 9.9e-03 nm, Epot= -1.70440e+05 Fmax= 4.26490e+03, atom= 645
-Step=  146, Dmax= 1.2e-02 nm, Epot= -1.70400e+05 Fmax= 1.27213e+04, atom= 645Step=  147, Dmax= 5.9e-03 nm, Epot= -1.70502e+05 Fmax= 4.05566e+03, atom= 645
-Step=  148, Dmax= 7.1e-03 nm, Epot= -1.70555e+05 Fmax= 5.91814e+03, atom= 645
-Step=  149, Dmax= 8.6e-03 nm, Epot= -1.70614e+05 Fmax= 6.09079e+03, atom= 645
-Step=  150, Dmax= 1.0e-02 nm, Epot= -1.70646e+05 Fmax= 8.25058e+03, atom= 645
-Step=  151, Dmax= 1.2e-02 nm, Epot= -1.70696e+05 Fmax= 9.06367e+03, atom= 645
-Step=  152, Dmax= 1.5e-02 nm, Epot= -1.70695e+05 Fmax= 1.15524e+04, atom= 645Step=  153, Dmax= 7.4e-03 nm, Epot= -1.70821e+05 Fmax= 1.51360e+03, atom= 645
-Step=  154, Dmax= 8.9e-03 nm, Epot= -1.70926e+05 Fmax= 1.10748e+04, atom= 645
-Step=  155, Dmax= 1.1e-02 nm, Epot= -1.71081e+05 Fmax= 4.06026e+03, atom= 645
-Step=  156, Dmax= 1.3e-02 nm, Epot= -1.70998e+05 Fmax= 1.42959e+04, atom= 645Step=  157, Dmax= 6.4e-03 nm, Epot= -1.71135e+05 Fmax= 4.91943e+03, atom= 645
-Step=  158, Dmax= 7.7e-03 nm, Epot= -1.71184e+05 Fmax= 5.81554e+03, atom= 645
-Step=  159, Dmax= 9.2e-03 nm, Epot= -1.71227e+05 Fmax= 7.12351e+03, atom= 645
-Step=  160, Dmax= 1.1e-02 nm, Epot= -1.71262e+05 Fmax= 8.31971e+03, atom= 645
-Step=  161, Dmax= 1.3e-02 nm, Epot= -1.71285e+05 Fmax= 1.03351e+04, atom= 645
-Step=  162, Dmax= 1.6e-02 nm, Epot= -1.71293e+05 Fmax= 1.18630e+04, atom= 645
-Step=  163, Dmax= 1.9e-02 nm, Epot= -1.71270e+05 Fmax= 1.50351e+04, atom= 645Step=  164, Dmax= 9.5e-03 nm, Epot= -1.71492e+05 Fmax= 1.15819e+03, atom= 645
-Step=  165, Dmax= 1.1e-02 nm, Epot= -1.71581e+05 Fmax= 1.47912e+04, atom= 645
-Step=  166, Dmax= 1.4e-02 nm, Epot= -1.71873e+05 Fmax= 4.21019e+03, atom= 645
-Step=  167, Dmax= 1.6e-02 nm, Epot= -1.71631e+05 Fmax= 1.79597e+04, atom= 645Step=  168, Dmax= 8.2e-03 nm, Epot= -1.71901e+05 Fmax= 7.17940e+03, atom= 645
-Step=  169, Dmax= 9.9e-03 nm, Epot= -1.71959e+05 Fmax= 6.68817e+03, atom= 645
-Step=  170, Dmax= 1.2e-02 nm, Epot= -1.71956e+05 Fmax= 9.84120e+03, atom= 645Step=  171, Dmax= 5.9e-03 nm, Epot= -1.72038e+05 Fmax= 1.74717e+03, atom= 645
-Step=  172, Dmax= 7.1e-03 nm, Epot= -1.72104e+05 Fmax= 8.34352e+03, atom= 645
-Step=  173, Dmax= 8.5e-03 nm, Epot= -1.72201e+05 Fmax= 3.75995e+03, atom= 645
-Step=  174, Dmax= 1.0e-02 nm, Epot= -1.72178e+05 Fmax= 1.08446e+04, atom= 645Step=  175, Dmax= 5.1e-03 nm, Epot= -1.72250e+05 Fmax= 3.41382e+03, atom= 645
-Step=  176, Dmax= 6.2e-03 nm, Epot= -1.72293e+05 Fmax= 5.19339e+03, atom= 645
-Step=  177, Dmax= 7.4e-03 nm, Epot= -1.72341e+05 Fmax= 5.15889e+03, atom= 645
-Step=  178, Dmax= 8.9e-03 nm, Epot= -1.72367e+05 Fmax= 7.21745e+03, atom= 645
-Step=  179, Dmax= 1.1e-02 nm, Epot= -1.72410e+05 Fmax= 7.70704e+03, atom= 645
-Step=  180, Dmax= 1.3e-02 nm, Epot= -1.72409e+05 Fmax= 1.00872e+04, atom= 645Step=  181, Dmax= 6.4e-03 nm, Epot= -1.72503e+05 Fmax= 1.39052e+03, atom= 645
-Step=  182, Dmax= 7.7e-03 nm, Epot= -1.72584e+05 Fmax= 9.44734e+03, atom= 645
-Step=  183, Dmax= 9.2e-03 nm, Epot= -1.72699e+05 Fmax= 3.58372e+03, atom= 645
-Step=  184, Dmax= 1.1e-02 nm, Epot= -1.72646e+05 Fmax= 1.21873e+04, atom= 645Step=  185, Dmax= 5.5e-03 nm, Epot= -1.72743e+05 Fmax= 4.15346e+03, atom= 645
-Step=  186, Dmax= 6.6e-03 nm, Epot= -1.72783e+05 Fmax= 5.10798e+03, atom= 645
-Step=  187, Dmax= 7.9e-03 nm, Epot= -1.72820e+05 Fmax= 6.04408e+03, atom= 645
-Step=  188, Dmax= 9.5e-03 nm, Epot= -1.72847e+05 Fmax= 7.27954e+03, atom= 645
-Step=  189, Dmax= 1.1e-02 nm, Epot= -1.72871e+05 Fmax= 8.79779e+03, atom= 645
-Step=  190, Dmax= 1.4e-02 nm, Epot= -1.72877e+05 Fmax= 1.03579e+04, atom= 645
-Step=  191, Dmax= 1.6e-02 nm, Epot= -1.72869e+05 Fmax= 1.28230e+04, atom= 645Step=  192, Dmax= 8.2e-03 nm, Epot= -1.73030e+05 Fmax= 9.12384e+02, atom= 645
-
-writing lowest energy coordinates.
-
-Steepest Descents converged to Fmax < 1000 in 193 steps
-Potential Energy  = -1.7302991e+05
-Maximum force     =  9.1238440e+02 on atom 645
-Norm of force     =  5.4887780e+01
-
-GROMACS reminds you: "Strength is just an accident arising from the weakness of others" (Joseph Conrad)
-
-                      :-) GROMACS - gmx energy, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi energy -f em.edr -o potential.xvg
-
-Opened em.edr as single precision energy file
-
-Select the terms you want from the following list by
-selecting either (part of) the name or the number or a combination.
-End your selection with an empty line or a zero.
--------------------------------------------------------------------
-  1  Bond             2  U-B              3  Proper-Dih.      4  Improper-Dih. 
-  5  CMAP-Dih.        6  LJ-14            7  Coulomb-14       8  LJ-(SR)       
-  9  Coulomb-(SR)    10  Coul.-recip.    11  Potential       12  Pressure      
- 13  Vir-XX          14  Vir-XY          15  Vir-XZ          16  Vir-YX        
- 17  Vir-YY          18  Vir-YZ          19  Vir-ZX          20  Vir-ZY        
- 21  Vir-ZZ          22  Pres-XX         23  Pres-XY         24  Pres-XZ       
- 25  Pres-YX         26  Pres-YY         27  Pres-YZ         28  Pres-ZX       
- 29  Pres-ZY         30  Pres-ZZ         31  #Surf*SurfTen   32  T-rest        
-
-Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    2.000         Reading energy frame      3 time    3.000         Reading energy frame      4 time    4.000         Reading energy frame      5 time    5.000         Reading energy frame      6 time    6.000         Reading energy frame      7 time    7.000         Reading energy frame      8 time    8.000         Reading energy frame      9 time   10.000         Reading energy frame     10 time   12.000         Reading energy frame     11 time   13.000         Reading energy frame     12 time   14.000         Reading energy frame     13 time   15.000         Reading energy frame     14 time   16.000         Reading energy frame     15 time   18.000         Reading energy frame     16 time   19.000         Reading energy frame     17 time   20.000         Reading energy frame     18 time   22.000         Reading energy frame     19 time   23.000         Reading energy frame     20 time   24.000         Reading energy frame     30 time   37.000         Reading energy frame     40 time   50.000         Reading energy frame     50 time   62.000         Reading energy frame     60 time   75.000         Reading energy frame     70 time   88.000         Reading energy frame     80 time  101.000         Reading energy frame     90 time  113.000         Reading energy frame    100 time  126.000         Reading energy frame    110 time  138.000         Reading energy frame    120 time  151.000         Reading energy frame    130 time  164.000         Reading energy frame    140 time  177.000         Reading energy frame    150 time  189.000         Last energy frame read 152 time  192.000         
-
-GROMACS reminds you: "Strength is just an accident arising from the weakness of others" (Joseph Conrad)
-
-
-Statistics over 193 steps [ 0.0000 through 192.0000 ps ], 1 data sets
-All statistics are over 153 points (frames)
-
-Energy                      Average   Err.Est.       RMSD  Tot-Drift
--------------------------------------------------------------------------------
-Coul. recip.                2377.09        340    813.268   -2265.48  (kJ/mol)
-/bin/bash: grace: command not found
-                      :-) GROMACS - gmx grompp, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
-
-Ignoring obsolete mdp entry 'title'
-Ignoring obsolete mdp entry 'ns_type'
-Generating 1-4 interactions: fudge = 1
-Number of degrees of freedom in T-Coupling group Protein is 2145.72
-Number of degrees of freedom in T-Coupling group non-Protein is 20457.29
-
-NOTE 1 [file nvt.mdp]:
-  Removing center of mass motion in the presence of position restraints
-  might cause artifacts. When you are using position restraints to
-  equilibrate a macro-molecule, the artifacts are usually negligible.
-
-
-There was 1 note
-
-GROMACS reminds you: "The difficulty lies, not in the new ideas, but in escaping the old ones." (John Maynard Keynes)
-
-Setting the LD random seed to 2105256442
-
-Generated 20503 of the 20503 non-bonded parameter combinations
-
-Generated 17396 of the 20503 1-4 parameter combinations
-
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 1 bonded neighbours molecule type 'NA'
-
-turning H bonds into constraints...
-
-Setting gen_seed to -34026625
-
-Velocities were taken from a Maxwell distribution at 300 K
-Analysing residue names:
-There are:    56    Protein residues
-There are:  3408      Water residues
-There are:     4        Ion residues
-Analysing Protein...
-Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
-
-The largest distance between excluded atoms is 0.404 nm
-
-Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
-
-Calculated rlist for 1x1 atom pair-list as 1.034 nm, buffer size 0.034 nm
-
-Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
-
-Note that mdrun will redetermine rlist based on the actual pair-list setup
-Calculating fourier grid dimensions for X Y Z
-Using a fourier grid of 32x28x36, spacing 0.157 0.150 0.150
-
-Estimate for the relative computational load of the PME mesh part: 0.22
-
-This run will generate roughly 27 Mb of data
-                      :-) GROMACS - gmx mdrun, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi mdrun -deffnm nvt
-
-The current CPU can measure timings more accurately than the code in
-gmx mdrun was configured to use. This might affect your simulation
-speed as accurate timings are needed for load-balancing.
-Please consider rebuilding gmx mdrun with the GMX_USE_RDTSCP=ON CMake option.
-Reading file nvt.tpr, VERSION 2022.2 (single precision)
-
-GPU-aware MPI detected, but by default GROMACS will not make use the direct GPU communication capabilities of MPI. For improved performance try enabling the feature by setting the GMX_ENABLE_DIRECT_GPU_COMM environment variable.
-Changing nstlist from 10 to 100, rlist from 1 to 1.163
-
-
-1 GPU selected for this run.
-Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
-  PP:0,PME:0
-PP tasks will do (non-perturbed) short-ranged interactions on the GPU
-PP task will update and constrain coordinates on the CPU
-PME tasks will do all aspects on the GPU
-Using 1 MPI process
-Using 6 OpenMP threads 
-
-starting mdrun 'PROTEIN G in water'
-50000 steps,    100.0 ps.
-
-Writing final coordinates.
-
-               Core t (s)   Wall t (s)        (%)
-       Time:      137.774       22.962      600.0
-                 (ns/day)    (hour/ns)
-Performance:      376.273        0.064
-
-GROMACS reminds you: "Sisters Have Always Fascinated Me" (Speech)
-
-                      :-) GROMACS - gmx energy, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi energy -f nvt.edr -o temperature.xvg
-
-Opened nvt.edr as single precision energy file
-
-Select the terms you want from the following list by
-selecting either (part of) the name or the number or a combination.
-End your selection with an empty line or a zero.
--------------------------------------------------------------------
-  1  Bond             2  U-B              3  Proper-Dih.      4  Improper-Dih. 
-  5  CMAP-Dih.        6  LJ-14            7  Coulomb-14       8  LJ-(SR)       
-  9  Disper.-corr.   10  Coulomb-(SR)    11  Coul.-recip.    12  Position-Rest.
- 13  Potential       14  Kinetic-En.     15  Total-Energy    16  Conserved-En. 
- 17  Temperature     18  Pres.-DC        19  Pressure        20  Constr.-rmsd  
- 21  Vir-XX          22  Vir-XY          23  Vir-XZ          24  Vir-YX        
- 25  Vir-YY          26  Vir-YZ          27  Vir-ZX          28  Vir-ZY        
- 29  Vir-ZZ          30  Pres-XX         31  Pres-XY         32  Pres-XZ       
- 33  Pres-YX         34  Pres-YY         35  Pres-YZ         36  Pres-ZX       
- 37  Pres-ZY         38  Pres-ZZ         39  #Surf*SurfTen   40  T-Protein     
- 41  T-non-Protein                       42  Lamb-Protein                      
- 43  Lamb-non-Protein                  
-
-Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    2.000         Reading energy frame      3 time    3.000         Reading energy frame      4 time    4.000         Reading energy frame      5 time    5.000         Reading energy frame      6 time    6.000         Reading energy frame      7 time    7.000         Reading energy frame      8 time    8.000         Reading energy frame      9 time    9.000         Reading energy frame     10 time   10.000         Reading energy frame     11 time   11.000         Reading energy frame     12 time   12.000         Reading energy frame     13 time   13.000         Reading energy frame     14 time   14.000         Reading energy frame     15 time   15.000         Reading energy frame     16 time   16.000         Reading energy frame     17 time   17.000         Reading energy frame     18 time   18.000         Reading energy frame     19 time   19.000         Reading energy frame     20 time   20.000         Reading energy frame     30 time   30.000         Reading energy frame     40 time   40.000         Reading energy frame     50 time   50.000         Reading energy frame     60 time   60.000         Reading energy frame     70 time   70.000         Reading energy frame     80 time   80.000         Reading energy frame     90 time   90.000         Reading energy frame    100 time  100.000         Last energy frame read 100 time  100.000         
-
-GROMACS reminds you: "Sisters Have Always Fascinated Me" (Speech)
-
-
-Statistics over 50001 steps [ 0.0000 through 100.0000 ps ], 1 data sets
-All statistics are over 501 points
-
-Energy                      Average   Err.Est.       RMSD  Tot-Drift
--------------------------------------------------------------------------------
-Temperature                 299.719      0.067     3.2872 -0.00967922  (K)
-/bin/bash: grace: command not found
-                      :-) GROMACS - gmx grompp, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi grompp -f npt.mdp -c nvt.gro -r nvt.gro -p topol.top -o npt.tpr
-
-Ignoring obsolete mdp entry 'title'
-Ignoring obsolete mdp entry 'ns_type'
-Generating 1-4 interactions: fudge = 1
-
-NOTE 1 [file topol.top, line 8090]:
-  You are combining position restraints with Parrinello-Rahman pressure
-  coupling, which can lead to instabilities. If you really want to combine
-  position restraints with pressure coupling, we suggest to use Berendsen
-  pressure coupling instead.
-
-Number of degrees of freedom in T-Coupling group Protein is 2145.72
-Number of degrees of freedom in T-Coupling group non-Protein is 20457.29
-
-NOTE 2 [file npt.mdp]:
-  Removing center of mass motion in the presence of position restraints
-  might cause artifacts. When you are using position restraints to
-  equilibrate a macro-molecule, the artifacts are usually negligible.
-
-
-There were 2 notes
-
-GROMACS reminds you: "What you do makes a difference, and you have to decide what kind of difference you want to make." (Jane Goodall)
-
-Setting the LD random seed to 1876929727
-
-Generated 20503 of the 20503 non-bonded parameter combinations
-
-Generated 17396 of the 20503 1-4 parameter combinations
-
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 1 bonded neighbours molecule type 'NA'
-
-turning H bonds into constraints...
-
-The center of mass of the position restraint coord's is  2.504  2.087  2.700
-
-The center of mass of the position restraint coord's is  2.504  2.087  2.700
-Analysing residue names:
-There are:    56    Protein residues
-There are:  3408      Water residues
-There are:     4        Ion residues
-Analysing Protein...
-Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
-
-The largest distance between excluded atoms is 0.409 nm
-
-Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
-
-Calculated rlist for 1x1 atom pair-list as 1.034 nm, buffer size 0.034 nm
-
-Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
-
-Note that mdrun will redetermine rlist based on the actual pair-list setup
-Calculating fourier grid dimensions for X Y Z
-Using a fourier grid of 32x28x36, spacing 0.157 0.150 0.150
-
-Estimate for the relative computational load of the PME mesh part: 0.22
-
-This run will generate roughly 27 Mb of data
-                      :-) GROMACS - gmx mdrun, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi mdrun -deffnm npt
-
-The current CPU can measure timings more accurately than the code in
-gmx mdrun was configured to use. This might affect your simulation
-speed as accurate timings are needed for load-balancing.
-Please consider rebuilding gmx mdrun with the GMX_USE_RDTSCP=ON CMake option.
-Reading file npt.tpr, VERSION 2022.2 (single precision)
-
-GPU-aware MPI detected, but by default GROMACS will not make use the direct GPU communication capabilities of MPI. For improved performance try enabling the feature by setting the GMX_ENABLE_DIRECT_GPU_COMM environment variable.
-Changing nstlist from 10 to 100, rlist from 1 to 1.163
-
-
-1 GPU selected for this run.
-Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
-  PP:0,PME:0
-PP tasks will do (non-perturbed) short-ranged interactions on the GPU
-PP task will update and constrain coordinates on the CPU
-PME tasks will do all aspects on the GPU
-Using 1 MPI process
-Using 6 OpenMP threads 
-
-starting mdrun 'PROTEIN G in water'
-50000 steps,    100.0 ps.
-
-Writing final coordinates.
-
-               Core t (s)   Wall t (s)        (%)
-       Time:      140.655       23.443      600.0
-                 (ns/day)    (hour/ns)
-Performance:      368.567        0.065
-
-GROMACS reminds you: "Therefore, things must be learned only to be unlearned again or, more likely, to be corrected." (Richard Feynman)
-
-                      :-) GROMACS - gmx energy, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi energy -f npt.edr -o pressure.xvg
-
-Opened npt.edr as single precision energy file
-
-Select the terms you want from the following list by
-selecting either (part of) the name or the number or a combination.
-End your selection with an empty line or a zero.
--------------------------------------------------------------------
-  1  Bond             2  U-B              3  Proper-Dih.      4  Improper-Dih. 
-  5  CMAP-Dih.        6  LJ-14            7  Coulomb-14       8  LJ-(SR)       
-  9  Disper.-corr.   10  Coulomb-(SR)    11  Coul.-recip.    12  Position-Rest.
- 13  Potential       14  Kinetic-En.     15  Total-Energy    16  Conserved-En. 
- 17  Temperature     18  Pres.-DC        19  Pressure        20  Constr.-rmsd  
- 21  Box-X           22  Box-Y           23  Box-Z           24  Volume        
- 25  Density         26  pV              27  Enthalpy        28  Vir-XX        
- 29  Vir-XY          30  Vir-XZ          31  Vir-YX          32  Vir-YY        
- 33  Vir-YZ          34  Vir-ZX          35  Vir-ZY          36  Vir-ZZ        
- 37  Pres-XX         38  Pres-XY         39  Pres-XZ         40  Pres-YX       
- 41  Pres-YY         42  Pres-YZ         43  Pres-ZX         44  Pres-ZY       
- 45  Pres-ZZ         46  #Surf*SurfTen   47  Box-Vel-XX      48  Box-Vel-YY    
- 49  Box-Vel-ZZ      50  T-Protein       51  T-non-Protein   52  Lamb-Protein  
- 53  Lamb-non-Protein                  
-
-Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    2.000         Reading energy frame      3 time    3.000         Reading energy frame      4 time    4.000         Reading energy frame      5 time    5.000         Reading energy frame      6 time    6.000         Reading energy frame      7 time    7.000         Reading energy frame      8 time    8.000         Reading energy frame      9 time    9.000         Reading energy frame     10 time   10.000         Reading energy frame     11 time   11.000         Reading energy frame     12 time   12.000         Reading energy frame     13 time   13.000         Reading energy frame     14 time   14.000         Reading energy frame     15 time   15.000         Reading energy frame     16 time   16.000         Reading energy frame     17 time   17.000         Reading energy frame     18 time   18.000         Reading energy frame     19 time   19.000         Reading energy frame     20 time   20.000         Reading energy frame     30 time   30.000         Reading energy frame     40 time   40.000         Reading energy frame     50 time   50.000         Reading energy frame     60 time   60.000         Reading energy frame     70 time   70.000         Reading energy frame     80 time   80.000         Reading energy frame     90 time   90.000         Reading energy frame    100 time  100.000         Last energy frame read 100 time  100.000         
-
-GROMACS reminds you: "Therefore, things must be learned only to be unlearned again or, more likely, to be corrected." (Richard Feynman)
-
-
-Statistics over 50001 steps [ 0.0000 through 100.0000 ps ], 1 data sets
-All statistics are over 501 points
-
-Energy                      Average   Err.Est.       RMSD  Tot-Drift
--------------------------------------------------------------------------------
-Pressure                      4.404        4.1     282.63   -8.46954  (bar)
-                      :-) GROMACS - gmx energy, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi energy -f npt.edr -o density.xvg
-
-Opened npt.edr as single precision energy file
-
-Select the terms you want from the following list by
-selecting either (part of) the name or the number or a combination.
-End your selection with an empty line or a zero.
--------------------------------------------------------------------
-  1  Bond             2  U-B              3  Proper-Dih.      4  Improper-Dih. 
-  5  CMAP-Dih.        6  LJ-14            7  Coulomb-14       8  LJ-(SR)       
-  9  Disper.-corr.   10  Coulomb-(SR)    11  Coul.-recip.    12  Position-Rest.
- 13  Potential       14  Kinetic-En.     15  Total-Energy    16  Conserved-En. 
- 17  Temperature     18  Pres.-DC        19  Pressure        20  Constr.-rmsd  
- 21  Box-X           22  Box-Y           23  Box-Z           24  Volume        
- 25  Density         26  pV              27  Enthalpy        28  Vir-XX        
-[AcquirngLock]/data/md_simple/1PGB/123456/PYPE.json
-[Controller.run] Unable to load metafile:/data/md_simple/1PGB/123456/PYPE.json [Errno 2] No such file or directory: '/data/md_simple/1PGB/123456/PYPE.json'
-
-[BULD](name='lazy_wget/0', code 'know_task', file='/opt/app/task_gromacs.py', line 272)
-  File "'/opt/app/task_gromacs.py'", line 272, in know_task)
-    ctl.lazy_wget( RO(ctl.runtime,'''https://files.rcsb.org/download/{PDB_ID}.pdb'''))
-[CHCK][RUNN]
-
-[BULD](name='_defaul_key_1', code 'know_task', file='/opt/app/task_gromacs.py', line 277)
-  File "'/opt/app/task_gromacs.py'", line 277, in know_task)
-    ctl.RWC(run=write_dep_file)
-[CHCK][RUNN]
-
-[BULD](name='_defaul_key_2', code 'know_task', file='/opt/app/task_gromacs.py', line 280)
-  File "'/opt/app/task_gromacs.py'", line 280, in know_task)
-    ctl.RWC(run='rm -vf ./\#*')
-[CHCK][RUNN]
-[cmd]set -e; rm -vf ./\#*
-
-[BULD](name='_defaul_key_3', code 'know_task', file='/opt/app/task_gromacs.py', line 285)
-  File "'/opt/app/task_gromacs.py'", line 285, in know_task)
-    ctl.RWC(run= ('{GMX} pdb2gmx -f {PDB_ID}.pdb -o {PDB_ID}_processed.gro -water spce -ff charmm27'))
-[CHCK][RUNN]
-[cmd]set -e; gmx pdb2gmx -f 1PGB.pdb -o 1PGB_processed.gro -water spce -ff charmm27
-
-[BULD](name='_defaul_key_4', code 'know_task', file='/opt/app/task_gromacs.py', line 293)
-  File "'/opt/app/task_gromacs.py'", line 293, in know_task)
-    ctl.RWC(run='{GMX} editconf -f {PDB_ID}_processed.gro -o {PDB_ID}_newbox.gro -c -d 1.0')
-[CHCK][RUNN]
-[cmd]set -e; gmx editconf -f 1PGB_processed.gro -o 1PGB_newbox.gro -c -d 1.0
-
-[BULD](name='_defaul_key_5', code 'know_task', file='/opt/app/task_gromacs.py', line 294)
-  File "'/opt/app/task_gromacs.py'", line 294, in know_task)
-    ctl.RWC(run='{GMX} solvate -cp {PDB_ID}_newbox.gro -o {PDB_ID}_solv.gro -cs spc216.gro -p topol.top')
-[CHCK][RUNN]
-[cmd]set -e; gmx solvate -cp 1PGB_newbox.gro -o 1PGB_solv.gro -cs spc216.gro -p topol.top
-
-[BULD](name='_defaul_key_6', code 'know_task', file='/opt/app/task_gromacs.py', line 296)
-  File "'/opt/app/task_gromacs.py'", line 296, in know_task)
-    ctl.RWC(run='{GMX} grompp -f ions.mdp -c {PDB_ID}_solv.gro -p topol.top -o ions.tpr')
-[CHCK][RUNN]
-[cmd]set -e; gmx grompp -f ions.mdp -c 1PGB_solv.gro -p topol.top -o ions.tpr
-
-[BULD](name='_defaul_key_7', code 'know_task', file='/opt/app/task_gromacs.py', line 297)
-  File "'/opt/app/task_gromacs.py'", line 297, in know_task)
-    ctl.RWC(run='echo 13 | {GMX} genion -s ions.tpr -o {PDB_ID}_solv_ions.gro -p topol.top -pname NA -nname CL -neutral')
-[CHCK][RUNN]
-[cmd]set -e; echo 13 | gmx genion -s ions.tpr -o 1PGB_solv_ions.gro -p topol.top -pname NA -nname CL -neutral
-
-[BULD](name='_defaul_key_8', code 'know_task', file='/opt/app/task_gromacs.py', line 302)
-  File "'/opt/app/task_gromacs.py'", line 302, in know_task)
-    ctl.RWC(run='{GMX} grompp -o em.tpr -f minim.mdp -c {PDB_ID}_solv_ions.gro -p topol.top ')
-[CHCK][RUNN]
-[cmd]set -e; gmx grompp -o em.tpr -f minim.mdp -c 1PGB_solv_ions.gro -p topol.top 
-
-[BULD](name='_defaul_key_9', code 'know_task', file='/opt/app/task_gromacs.py', line 303)
-  File "'/opt/app/task_gromacs.py'", line 303, in know_task)
-    ctl.RWC(CWST,'em.gro',run='{GMX} mdrun -v -deffnm em')
-[CHCK][RUNN]
-[cmd]set -e; gmx mdrun -v -deffnm em
-
-[BULD](name='_defaul_key_10', code 'know_task', file='/opt/app/task_gromacs.py', line 304)
-  File "'/opt/app/task_gromacs.py'", line 304, in know_task)
-    ctl.RWC(run='printf "10\n0\n" | {GMX} energy -f em.edr -o potential.xvg')
-[CHCK][RUNN]
-[cmd]set -e; printf "10
-0
-" | gmx energy -f em.edr -o potential.xvg
-
-[BULD](name='_defaul_key_11', code 'lazy_grace_png', file='/opt/app/task_gromacs.py', line 65)
-  File "'/opt/app/task_gromacs.py'", line 65, in lazy_grace_png)
-        return ctl.RWC(CWST, check_ctx=TARGET, run=f'grace -nxy {SRC} -hdevice PNG -hardcopy -printfile {TARGET}')
-[CHCK][RUNN]
-[cmd]set -e; grace -nxy potential.xvg -hdevice PNG -hardcopy -printfile potential.xvg.png
-
-[BULD](name='_defaul_key_12', code 'know_task', file='/opt/app/task_gromacs.py', line 310)
-  File "'/opt/app/task_gromacs.py'", line 310, in know_task)
-    ctl.RWC(run='''{GMX} grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr''')
-[CHCK][RUNN]
-[cmd]set -e; gmx grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
-
-[BULD](name='_defaul_key_13', code 'know_task', file='/opt/app/task_gromacs.py', line 311)
-  File "'/opt/app/task_gromacs.py'", line 311, in know_task)
-    ctl.RWC(CWST,'nvt.gro',run='{GMX} mdrun -deffnm nvt')
-[CHCK][RUNN]
-[cmd]set -e; gmx mdrun -deffnm nvt
-
-[BULD](name='_defaul_key_14', code 'know_task', file='/opt/app/task_gromacs.py', line 312)
-  File "'/opt/app/task_gromacs.py'", line 312, in know_task)
-    ctl.RWC(run='echo "17\n0\n" | {GMX} energy -f nvt.edr -o temperature.xvg')
-[CHCK][RUNN]
-[cmd]set -e; echo "17
-0
-" | gmx energy -f nvt.edr -o temperature.xvg
-
-[BULD](name='_defaul_key_15', code 'lazy_grace_png', file='/opt/app/task_gromacs.py', line 65)
-  File "'/opt/app/task_gromacs.py'", line 65, in lazy_grace_png)
-        return ctl.RWC(CWST, check_ctx=TARGET, run=f'grace -nxy {SRC} -hdevice PNG -hardcopy -printfile {TARGET}')
-[CHCK][RUNN]
-[cmd]set -e; grace -nxy temperature.xvg -hdevice PNG -hardcopy -printfile temperature.xvg.png
-
-[BULD](name='_defaul_key_16', code 'know_task', file='/opt/app/task_gromacs.py', line 315)
-  File "'/opt/app/task_gromacs.py'", line 315, in know_task)
-    ctl.RWC(run='''{GMX} grompp -f npt.mdp -c nvt.gro -r nvt.gro -p topol.top -o npt.tpr''')
-[CHCK][RUNN]
-[cmd]set -e; gmx grompp -f npt.mdp -c nvt.gro -r nvt.gro -p topol.top -o npt.tpr
-
-[BULD](name='_defaul_key_17', code 'know_task', file='/opt/app/task_gromacs.py', line 316)
-  File "'/opt/app/task_gromacs.py'", line 316, in know_task)
-    ctl.RWC(CWST,'npt.gro',run='{GMX} mdrun -deffnm npt')
-[CHCK][RUNN]
-[cmd]set -e; gmx mdrun -deffnm npt
-
-[BULD](name='_defaul_key_18', code 'know_task', file='/opt/app/task_gromacs.py', line 319)
-  File "'/opt/app/task_gromacs.py'", line 319, in know_task)
-    ctl.RWC(run='echo "19\n0\n" | {GMX} energy -f npt.edr -o pressure.xvg')
-[CHCK][RUNN]
-[cmd]set -e; echo "19
-0
-" | gmx energy -f npt.edr -o pressure.xvg
-
-[BULD](name='_defaul_key_19', code 'know_task', file='/opt/app/task_gromacs.py', line 320)
-  File "'/opt/app/task_gromacs.py'", line 320, in know_task)
-    ctl.RWC(run='echo "25\n0\n" | {GMX} energy -f npt.edr -o density.xvg')
-[CHCK][RUNN]
-[cmd]set -e; echo "25
-0
-" | gmx energy -f npt.edr -o density.xvg
-
-[BULD](name='_defaul_key_20', code 'lazy_grace_png', file='/opt/app/task_gromacs.py', line 65)
-  File "'/opt/app/task_gromacs.py'", line 65, in lazy_grace_png)
-        return ctl.RWC(CWST, check_ctx=TARGET, run=f'grace -nxy {SRC} -hdevice PNG -hardcopy -printfile {TARGET}')
-[CHCK][RUNN]
-[cmd]set -e; grace -nxy density.xvg -hdevice PNG -hardcopy -printfile density.xvg.png
-
-[BULD](name='_defaul_key_21', code 'know_task', file='/opt/app/task_gromacs.py', line 323)
-  File "'/opt/app/task_gromacs.py'", line 323, in know_task)
-    ctl.RWC(run='''{GMX} grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr''')
-[CHCK][RUNN]
-[cmd]set -e; gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
-
-[BULD](name='_defaul_key_22', code 'know_task', file='/opt/app/task_gromacs.py', line 324)
-  File "'/opt/app/task_gromacs.py'", line 324, in know_task)
-    ctl.RWC(CWST,'md_0_1.gro',run='{GMX} mdrun -deffnm md_0_1 -nb gpu')
-[CHCK][RUNN]
-[cmd]set -e; gmx mdrun -deffnm md_0_1 -nb gpu
-
-[BULD](name='_defaul_key_23', code 'know_task', file='/opt/app/task_gromacs.py', line 326)
-  File "'/opt/app/task_gromacs.py'", line 326, in know_task)
-    ctl.RWC(run=f'echo [SUCCESS]{__file__} 1>&2')
-[CHCK][RUNN]
-[cmd]set -e; echo [SUCCESS]/opt/app/task_gromacs.py 1>&2
-192.168.50.123 - - [08/Dec/2022 14:55:49] "POST /gcat/md_simple/ HTTP/1.1" 200 -
- * Detected change in '/opt/app/server.py', reloading
- 29  Vir-XY          30  Vir-XZ          31  Vir-YX          32  Vir-YY        
- 33  Vir-YZ          34  Vir-ZX          35  Vir-ZY          36  Vir-ZZ        
- 37  Pres-XX         38  Pres-XY         39  Pres-XZ         40  Pres-YX       
- 41  Pres-YY         42  Pres-YZ         43  Pres-ZX         44  Pres-ZY       
- 45  Pres-ZZ         46  #Surf*SurfTen   47  Box-Vel-XX      48  Box-Vel-YY    
- 49  Box-Vel-ZZ      50  T-Protein       51  T-non-Protein   52  Lamb-Protein  
- 53  Lamb-non-Protein                  
-
-Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    2.000         Reading energy frame      3 time    3.000         Reading energy frame      4 time    4.000         Reading energy frame      5 time    5.000         Reading energy frame      6 time    6.000         Reading energy frame      7 time    7.000         Reading energy frame      8 time    8.000         Reading energy frame      9 time    9.000         Reading energy frame     10 time   10.000         Reading energy frame     11 time   11.000         Reading energy frame     12 time   12.000         Reading energy frame     13 time   13.000         Reading energy frame     14 time   14.000         Reading energy frame     15 time   15.000         Reading energy frame     16 time   16.000         Reading energy frame     17 time   17.000         Reading energy frame     18 time   18.000         Reading energy frame     19 time   19.000         Reading energy frame     20 time   20.000         Reading energy frame     30 time   30.000         Reading energy frame     40 time   40.000         Reading energy frame     50 time   50.000         Reading energy frame     60 time   60.000         Reading energy frame     70 time   70.000         Reading energy frame     80 time   80.000         Reading energy frame     90 time   90.000         Reading energy frame    100 time  100.000         Last energy frame read 100 time  100.000         
-
-GROMACS reminds you: "The physical chemists never use their eyes and are most lamentably lacking in chemical culture. It is essential to cast out from our midst, root and branch, this physical element and return to our laboratories." (Henry Edward Armstrong)
-
-
-Statistics over 50001 steps [ 0.0000 through 100.0000 ps ], 1 data sets
-All statistics are over 501 points
-
-Energy                      Average   Err.Est.       RMSD  Tot-Drift
--------------------------------------------------------------------------------
-Density                     1028.37       0.42    5.76017   0.651559  (kg/m^3)
-/bin/bash: grace: command not found
-                      :-) GROMACS - gmx grompp, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
-
-Ignoring obsolete mdp entry 'title'
-Ignoring obsolete mdp entry 'ns_type'
-Generating 1-4 interactions: fudge = 1
-Number of degrees of freedom in T-Coupling group Protein is 2145.72
-Number of degrees of freedom in T-Coupling group non-Protein is 20457.29
-Last frame         -1 time  100.000   
-
-GROMACS reminds you: "The physical chemists never use their eyes and are most lamentably lacking in chemical culture. It is essential to cast out from our midst, root and branch, this physical element and return to our laboratories." (Henry Edward Armstrong)
-
-Setting the LD random seed to -34472586
-
-Generated 20503 of the 20503 non-bonded parameter combinations
-
-Generated 17396 of the 20503 1-4 parameter combinations
-
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 1 bonded neighbours molecule type 'NA'
-
-turning H bonds into constraints...
-Analysing residue names:
-There are:    56    Protein residues
-There are:  3408      Water residues
-There are:     4        Ion residues
-Analysing Protein...
-Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
-
-The largest distance between excluded atoms is 0.407 nm
-
-Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 350 K
-
-Calculated rlist for 1x1 atom pair-list as 1.040 nm, buffer size 0.040 nm
-
-Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
-
-Note that mdrun will redetermine rlist based on the actual pair-list setup
-
-Reading Coordinates, Velocities and Box size from old trajectory
-
-Will read whole trajectory
-
-Using frame at t = 100 ps
-
-Starting time for run is 0 ps
-Calculating fourier grid dimensions for X Y Z
-Using a fourier grid of 32x28x36, spacing 0.155 0.148 0.148
-
-Estimate for the relative computational load of the PME mesh part: 0.21
-
-This run will generate roughly 2 Mb of data
-                      :-) GROMACS - gmx mdrun, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi mdrun -deffnm md_0_1 -nb gpu
-
-The current CPU can measure timings more accurately than the code in
-gmx mdrun was configured to use. This might affect your simulation
-speed as accurate timings are needed for load-balancing.
-Please consider rebuilding gmx mdrun with the GMX_USE_RDTSCP=ON CMake option.
-Reading file md_0_1.tpr, VERSION 2022.2 (single precision)
-
-GPU-aware MPI detected, but by default GROMACS will not make use the direct GPU communication capabilities of MPI. For improved performance try enabling the feature by setting the GMX_ENABLE_DIRECT_GPU_COMM environment variable.
-Changing nstlist from 10 to 80, rlist from 1 to 1.154
-
-
-1 GPU selected for this run.
-Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
-  PP:0,PME:0
-PP tasks will do (non-perturbed) short-ranged interactions on the GPU
-PP task will update and constrain coordinates on the CPU
-PME tasks will do all aspects on the GPU
-Using 1 MPI process
-Using 6 OpenMP threads 
-
-starting mdrun 'PROTEIN G in water'
-123456 steps,    246.9 ps.
-
-Writing final coordinates.
-
-               Core t (s)   Wall t (s)        (%)
-       Time:      324.198       54.033      600.0
-                 (ns/day)    (hour/ns)
-Performance:      394.820        0.061
-
-GROMACS reminds you: "Love is Like Moby Dick, Get Chewed and Get Spat Out" (Urban Dance Squad)
-
-[SUCCESS]/opt/app/task_gromacs.py
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/task_gromacs.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-removed './#topol.top.1#'
-removed './#topol.top.2#'
-                     :-) GROMACS - gmx pdb2gmx, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi pdb2gmx -f 1PGB.pdb -o 1PGB_processed.gro -water spce -ff charmm27
-
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.r2b
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.r2b
-there were 0 atoms with zero occupancy and 16 atoms with          occupancy unequal to one (out of 460 atoms). Check your pdb file.
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/atomtypes.atp
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.rtp
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.rtp
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/lipids.rtp
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.rtp
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.hdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.hdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/lipids.hdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.hdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.n.tdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.n.tdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.n.tdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.c.tdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.c.tdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.c.tdb
-
-Back Off! I just backed up topol.top to ./#topol.top.1#
-8 out of 8 lines of specbond.dat converted successfully
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.arn
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.arn
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.arn
-Before cleaning: 2257 pairs
-Before cleaning: 2262 dihedrals
-
-Back Off! I just backed up posre.itp to ./#posre.itp.1#
-8 out of 8 lines of specbond.dat converted successfully
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.arn
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.arn
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.arn
-
-Back Off! I just backed up 1PGB_processed.gro to ./#1PGB_processed.gro.1#
-
-GROMACS reminds you: "Teaching quantum computing is like teaching computer science at Hogwarts." (Thomas Sterling, ISC2018 keynote)
-
-Using the Charmm27 force field in directory charmm27.ff
-
-going to rename charmm27.ff/aminoacids.r2b
-
-going to rename charmm27.ff/rna.r2b
-Reading 1PGB.pdb...
-Read 'PROTEIN G', 460 atoms
-
-Analyzing pdb file
-Splitting chemical chains based on TER records or chain id changing.
-
-There are 1 chains and 1 blocks of water and 80 residues with 460 atoms
-
-  chain  #res #atoms
-
-  1 'A'    56    436  
-
-  2 ' '    24     24  (only water)
-
-there were 0 atoms with zero occupancy and 16 atoms with          occupancy unequal to one (out of 460 atoms). Check your pdb file.
-
-Reading residue database... (Charmm27)
-
-Processing chain 1 'A' (436 atoms, 56 residues)
-
-Identified residue MET1 as a starting terminus.
-
-Identified residue GLU56 as a ending terminus.
-Start terminus MET-1: NH3+
-End terminus GLU-56: COO-
-
-Checking for duplicate atoms....
-
-Generating any missing hydrogen atoms and/or adding termini.
-
-Now there are 56 residues with 855 atoms
-
-Making bonds...
-
-Number of bonds was 861, now 861
-
-Generating angles, dihedrals and pairs...
-
-Making cmap torsions...
-
-There are   54 cmap torsion pairs
-
-There are 2262 dihedrals,  137 impropers, 1551 angles
-          2239 pairs,      861 bonds and     0 virtual sites
-
-Total mass 6191.790 a.m.u.
-
-Total charge -4.000 e
-
-Writing topology
-
-Processing chain 2 (24 atoms, 24 residues)
-
-Problem with chain definition, or missing terminal residues. This chain does not appear to contain a recognized chain molecule. If this is incorrect, you can edit residuetypes.dat to modify the behavior.
-
-Checking for duplicate atoms....
-
-Generating any missing hydrogen atoms and/or adding termini.
-
-Now there are 24 residues with 72 atoms
-
-Making bonds...
-
-Number of bonds was 72, now 72
-
-Generating angles, dihedrals and pairs...
-
-Making cmap torsions...
-
-There are    0 dihedrals,    0 impropers,   72 angles
-             0 pairs,       72 bonds and     0 virtual sites
-
-Total mass 432.370 a.m.u.
-
-Total charge 0.000 e
-
-Including chain 1 in system: 855 atoms 56 residues
-
-Including chain 2 in system: 72 atoms 24 residues
-
-Now there are 927 atoms and 80 residues
-
-Total mass in system 6624.159 a.m.u.
-
-Total charge in system -4.000 e
-
-Writing coordinate file...
-
-		--------- PLEASE NOTE ------------
-
-You have successfully generated a topology from: 1PGB.pdb.
-
-The Charmm27 force field and the spce water model are used.
-
-		--------- ETON ESAELP ------------
-                     :-) GROMACS - gmx editconf, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi editconf -f 1PGB_processed.gro -o 1PGB_newbox.gro -c -d 1.0
-
-
-Back Off! I just backed up 1PGB_newbox.gro to ./#1PGB_newbox.gro.1#
-
-GROMACS reminds you: "Teaching quantum computing is like teaching computer science at Hogwarts." (Thomas Sterling, ISC2018 keynote)
-
-Note that major changes are planned in future for editconf, to improve usability and utility.
-Read 927 atoms
-Volume: 92.1079 nm^3, corresponds to roughly 41400 electrons
-No velocities found
-    system size :  3.035  2.194  3.407 (nm)
-    center      :  0.854  1.298  1.802 (nm)
-    box vectors :  3.663  3.663  7.925 (nm)
-    box angles  :  90.00  90.00 120.00 (degrees)
-    box volume  :  92.11               (nm^3)
-    shift       :  1.663  0.799  0.902 (nm)
-new center      :  2.518  2.097  2.704 (nm)
-new box vectors :  5.035  4.194  5.407 (nm)
-new box angles  :  90.00  90.00  90.00 (degrees)
-new box volume  : 114.18               (nm^3)
-
-WARNING: No boxtype specified - distance condition applied in each dimension.
-If the molecule rotates the actual distance will be smaller. You might want
-to use a cubic box instead, or why not try a dodecahedron today?
-                     :-) GROMACS - gmx solvate, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi solvate -cp 1PGB_newbox.gro -o 1PGB_solv.gro -cs spc216.gro -p topol.top
-
-Reading solute configuration
-Reading solvent configuration
-
-Initialising inter-atomic distances...
-
-WARNING: Masses and atomic (Van der Waals) radii will be guessed
-         based on residue and atom names, since they could not be
-         definitively assigned from the information in your input
-         files. These guessed numbers might deviate from the mass
-         and radius of the atom type. Please check the output
-         files if necessary. Note, that this functionality may
-         be removed in a future GROMACS version. Please, consider
-         using another file format for your input.
-
-NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
-from the source below. This means the results may be different
-compared to previous GROMACS versions.
-
-++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
-A. Bondi
-van der Waals Volumes and Radii
-J. Phys. Chem. 68 (1964) pp. 441-451
--------- -------- --- Thank You --- -------- --------
-
-Generating solvent configuration
-Will generate new solvent configuration of 3x3x3 boxes
-Solvent box contains 13464 atoms in 4488 residues
-Removed 2397 solvent atoms due to solvent-solvent overlap
-Removed 903 solvent atoms due to solute-solvent overlap
-Sorting configuration
-Found 1 molecule type:
-    SOL (   3 atoms):  3388 residues
-Generated solvent containing 10164 atoms in 3388 residues
-Writing generated configuration to 1PGB_solv.gro
-
-Back Off! I just backed up 1PGB_solv.gro to ./#1PGB_solv.gro.1#
-
-Output configuration contains 11091 atoms in 3468 residues
-Volume                 :     114.178 (nm^3)
-Density                :     989.975 (g/l)
-Number of solvent molecules:   3388   
-
-Processing topology
-
-Back Off! I just backed up topol.top to ./#topol.top.2#
-
-GROMACS reminds you: "This is Tense !" (Star Wars Episode I The Phantom Menace)
-
-Adding line for 3388 solvent molecules with resname (SOL) to topology file (topol.top)
-                      :-) GROMACS - gmx grompp, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi grompp -f ions.mdp -c 1PGB_solv.gro -p topol.top -o ions.tpr
-
-Ignoring obsolete mdp entry 'ns_type'
-
-NOTE 1 [file ions.mdp]:
-  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
-  that with the Verlet scheme, nstlist has no effect on the accuracy of
-  your simulation.
-
-Generating 1-4 interactions: fudge = 1
-
-NOTE 2 [file topol.top, line 8089]:
-  System has non-zero total charge: -4.000000
-  Total charge should normally be an integer. See
-  http://www.gromacs.org/Documentation/Floating_Point_Arithmetic
-  for discussion on how close it should be to an integer.
-  
-
-
-Number of degrees of freedom in T-Coupling group rest is 23034.00
-
-NOTE 3 [file ions.mdp]:
-  You are using a plain Coulomb cut-off, which might produce artifacts.
-  You might want to consider using PME electrostatics.
-
-
-
-There were 3 notes
-
-Back Off! I just backed up ions.tpr to ./#ions.tpr.1#
-
-GROMACS reminds you: "This is Tense !" (Star Wars Episode I The Phantom Menace)
-
-Setting the LD random seed to -13172996
-
-Generated 20503 of the 20503 non-bonded parameter combinations
-
-Generated 17396 of the 20503 1-4 parameter combinations
-
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-Analysing residue names:
-There are:    56    Protein residues
-There are:  3412      Water residues
-Analysing Protein...
-
-This run will generate roughly 1 Mb of data
-                      :-) GROMACS - gmx genion, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi genion -s ions.tpr -o 1PGB_solv_ions.gro -p topol.top -pname NA -nname CL -neutral
-
-Reading file ions.tpr, VERSION 2022.2 (single precision)
-Reading file ions.tpr, VERSION 2022.2 (single precision)
-Group     0 (         System) has 11091 elements
-Group     1 (        Protein) has   855 elements
-Group     2 (      Protein-H) has   436 elements
-Group     3 (        C-alpha) has    56 elements
-Group     4 (       Backbone) has   168 elements
-Group     5 (      MainChain) has   223 elements
-Group     6 (   MainChain+Cb) has   275 elements
-Group     7 (    MainChain+H) has   281 elements
-Group     8 (      SideChain) has   574 elements
-Group     9 (    SideChain-H) has   213 elements
-Group    10 (    Prot-Masses) has   855 elements
-Group    11 (    non-Protein) has 10236 elements
-Group    12 (          Water) has 10236 elements
-Group    13 (            SOL) has 10236 elements
-Group    14 (      non-Water) has   855 elements
-Select a group: Number of (3-atomic) solvent molecules: 3412
-
-Back Off! I just backed up topol.top to ./#topol.top.3#
-Using random seed -537657345.
-Replacing solvent molecule 1236 (atom 4563) with NA
-Replacing solvent molecule 666 (atom 2853) with NA
-Replacing solvent molecule 1363 (atom 4944) with NA
-Replacing solvent molecule 457 (atom 2226) with NA
-
-
-Back Off! I just backed up 1PGB_solv_ions.gro to ./#1PGB_solv_ions.gro.1#
-
-GROMACS reminds you: "This is Tense !" (Star Wars Episode I The Phantom Menace)
-
-Will try to add 4 NA ions and 0 CL ions.
-Select a continuous group of solvent molecules
-Selected 13: 'SOL'
-
-Processing topology
-Replacing 4 solute molecules in topology file (topol.top)  by 4 NA and 0 CL ions.
-                      :-) GROMACS - gmx grompp, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi grompp -o em.tpr -f minim.mdp -c 1PGB_solv_ions.gro -p topol.top
-
-Ignoring obsolete mdp entry 'ns_type'
-
-NOTE 1 [file minim.mdp]:
-  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
-  that with the Verlet scheme, nstlist has no effect on the accuracy of
-  your simulation.
-
-Generating 1-4 interactions: fudge = 1
-Number of degrees of freedom in T-Coupling group rest is 23022.00
-
-There was 1 note
-
-Back Off! I just backed up em.tpr to ./#em.tpr.1#
-
-GROMACS reminds you: "If at first you don't succeed, try two more times so that your failure is statistically significant." (Dallas Warren)
-
-Setting the LD random seed to 2096876927
-
-Generated 20503 of the 20503 non-bonded parameter combinations
-
-Generated 17396 of the 20503 1-4 parameter combinations
-
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 1 bonded neighbours molecule type 'NA'
-Analysing residue names:
-There are:    56    Protein residues
-There are:  3408      Water residues
-There are:     4        Ion residues
-Analysing Protein...
-Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
-
-The largest distance between excluded atoms is 0.396 nm
-Calculating fourier grid dimensions for X Y Z
-Using a fourier grid of 42x36x48, spacing 0.120 0.116 0.113
-
-Estimate for the relative computational load of the PME mesh part: 0.25
-
-This run will generate roughly 1 Mb of data
-                      :-) GROMACS - gmx energy, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi energy -f em.edr -o potential.xvg
-
-Opened em.edr as single precision energy file
-
-Select the terms you want from the following list by
-selecting either (part of) the name or the number or a combination.
-End your selection with an empty line or a zero.
--------------------------------------------------------------------
-  1  Bond             2  U-B              3  Proper-Dih.      4  Improper-Dih. 
-  5  CMAP-Dih.        6  LJ-14            7  Coulomb-14       8  LJ-(SR)       
-  9  Coulomb-(SR)    10  Coul.-recip.    11  Potential       12  Pressure      
- 13  Vir-XX          14  Vir-XY          15  Vir-XZ          16  Vir-YX        
- 17  Vir-YY          18  Vir-YZ          19  Vir-ZX          20  Vir-ZY        
- 21  Vir-ZZ          22  Pres-XX         23  Pres-XY         24  Pres-XZ       
- 25  Pres-YX         26  Pres-YY         27  Pres-YZ         28  Pres-ZX       
- 29  Pres-ZY         30  Pres-ZZ         31  #Surf*SurfTen   32  T-rest        
-
-
-Back Off! I just backed up potential.xvg to ./#potential.xvg.1#
-Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    2.000         Reading energy frame      3 time    3.000         Reading energy frame      4 time    4.000         Reading energy frame      5 time    5.000         Reading energy frame      6 time    6.000         Reading energy frame      7 time    7.000         Reading energy frame      8 time    8.000         Reading energy frame      9 time   10.000         Reading energy frame     10 time   12.000         Reading energy frame     11 time   13.000         Reading energy frame     12 time   14.000         Reading energy frame     13 time   15.000         Reading energy frame     14 time   16.000         Reading energy frame     15 time   18.000         Reading energy frame     16 time   19.000         Reading energy frame     17 time   20.000         Reading energy frame     18 time   22.000         Reading energy frame     19 time   23.000         Reading energy frame     20 time   24.000         Reading energy frame     30 time   37.000         Reading energy frame     40 time   50.000         Reading energy frame     50 time   62.000         Reading energy frame     60 time   75.000         Reading energy frame     70 time   88.000         Reading energy frame     80 time  101.000         Reading energy frame     90 time  113.000         Reading energy frame    100 time  126.000         Reading energy frame    110 time  138.000         Reading energy frame    120 time  151.000         Reading energy frame    130 time  164.000         Reading energy frame    140 time  177.000         Reading energy frame    150 time  189.000         Last energy frame read 152 time  192.000         
-
-GROMACS reminds you: "If at first you don't succeed, try two more times so that your failure is statistically significant." (Dallas Warren)
-
-
-Statistics over 193 steps [ 0.0000 through 192.0000 ps ], 1 data sets
-All statistics are over 153 points (frames)
-
-Energy                      Average   Err.Est.       RMSD  Tot-Drift
--------------------------------------------------------------------------------
-Coul. recip.                2377.09        340    813.268   -2265.48  (kJ/mol)
-/bin/bash: grace: command not found
-                      :-) GROMACS - gmx grompp, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
-
-Ignoring obsolete mdp entry 'title'
-Ignoring obsolete mdp entry 'ns_type'
-Generating 1-4 interactions: fudge = 1
-Number of degrees of freedom in T-Coupling group Protein is 2145.72
-Number of degrees of freedom in T-Coupling group non-Protein is 20457.29
-
-NOTE 1 [file nvt.mdp]:
-  Removing center of mass motion in the presence of position restraints
-  might cause artifacts. When you are using position restraints to
-  equilibrate a macro-molecule, the artifacts are usually negligible.
-
-
-There was 1 note
-
-Back Off! I just backed up nvt.tpr to ./#nvt.tpr.1#
-
-GROMACS reminds you: "If at first you don't succeed, try two more times so that your failure is statistically significant." (Dallas Warren)
-
-Setting the LD random seed to 2136849881
-
-Generated 20503 of the 20503 non-bonded parameter combinations
-
-Generated 17396 of the 20503 1-4 parameter combinations
-
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 1 bonded neighbours molecule type 'NA'
-
-turning H bonds into constraints...
-
-Setting gen_seed to -537269317
-
-Velocities were taken from a Maxwell distribution at 300 K
-Analysing residue names:
-There are:    56    Protein residues
-There are:  3408      Water residues
-There are:     4        Ion residues
-Analysing Protein...
-Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
-
-The largest distance between excluded atoms is 0.404 nm
-
-Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
-
-Calculated rlist for 1x1 atom pair-list as 1.034 nm, buffer size 0.034 nm
-
-Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
-
-Note that mdrun will redetermine rlist based on the actual pair-list setup
-Calculating fourier grid dimensions for X Y Z
-Using a fourier grid of 32x28x36, spacing 0.157 0.150 0.150
-
-Estimate for the relative computational load of the PME mesh part: 0.22
-
-This run will generate roughly 27 Mb of data
-                      :-) GROMACS - gmx energy, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi energy -f nvt.edr -o temperature.xvg
-
-Opened nvt.edr as single precision energy file
-
-Select the terms you want from the following list by
-selecting either (part of) the name or the number or a combination.
-End your selection with an empty line or a zero.
--------------------------------------------------------------------
-  1  Bond             2  U-B              3  Proper-Dih.      4  Improper-Dih. 
-  5  CMAP-Dih.        6  LJ-14            7  Coulomb-14       8  LJ-(SR)       
-  9  Disper.-corr.   10  Coulomb-(SR)    11  Coul.-recip.    12  Position-Rest.
- 13  Potential       14  Kinetic-En.     15  Total-Energy    16  Conserved-En. 
- 17  Temperature     18  Pres.-DC        19  Pressure        20  Constr.-rmsd  
- 21  Vir-XX          22  Vir-XY          23  Vir-XZ          24  Vir-YX        
- 25  Vir-YY          26  Vir-YZ          27  Vir-ZX          28  Vir-ZY        
- 29  Vir-ZZ          30  Pres-XX         31  Pres-XY         32  Pres-XZ       
- 33  Pres-YX         34  Pres-YY         35  Pres-YZ         36  Pres-ZX       
- 37  Pres-ZY         38  Pres-ZZ         39  #Surf*SurfTen   40  T-Protein     
- 41  T-non-Protein                       42  Lamb-Protein                      
- 43  Lamb-non-Protein                  
-
-
-Back Off! I just backed up temperature.xvg to ./#temperature.xvg.1#
-Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    2.000         Reading energy frame      3 time    3.000         Reading energy frame      4 time    4.000         Reading energy frame      5 time    5.000         Reading energy frame      6 time    6.000         Reading energy frame      7 time    7.000         Reading energy frame      8 time    8.000         Reading energy frame      9 time    9.000         Reading energy frame     10 time   10.000         Reading energy frame     11 time   11.000         Reading energy frame     12 time   12.000         Reading energy frame     13 time   13.000         Reading energy frame     14 time   14.000         Reading energy frame     15 time   15.000         Reading energy frame     16 time   16.000         Reading energy frame     17 time   17.000         Reading energy frame     18 time   18.000         Reading energy frame     19 time   19.000         Reading energy frame     20 time   20.000         Reading energy frame     30 time   30.000         Reading energy frame     40 time   40.000         Reading energy frame     50 time   50.000         Reading energy frame     60 time   60.000         Reading energy frame     70 time   70.000         Reading energy frame     80 time   80.000         Reading energy frame     90 time   90.000         Reading energy frame    100 time  100.000         Last energy frame read 100 time  100.000         
-
-GROMACS reminds you: "Why Weren't You at My Funeral ?" (G. Groenhof)
-
-
-Statistics over 50001 steps [ 0.0000 through 100.0000 ps ], 1 data sets
-All statistics are over 501 points
-
-Energy                      Average   Err.Est.       RMSD  Tot-Drift
--------------------------------------------------------------------------------
-Temperature                 299.719      0.067     3.2872 -0.00967922  (K)
-/bin/bash: grace: command not found
-                      :-) GROMACS - gmx grompp, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi grompp -f npt.mdp -c nvt.gro -r nvt.gro -p topol.top -o npt.tpr
-
-Ignoring obsolete mdp entry 'title'
-Ignoring obsolete mdp entry 'ns_type'
-Generating 1-4 interactions: fudge = 1
-
-NOTE 1 [file topol.top, line 8090]:
-  You are combining position restraints with Parrinello-Rahman pressure
-  coupling, which can lead to instabilities. If you really want to combine
-  position restraints with pressure coupling, we suggest to use Berendsen
-  pressure coupling instead.
-
-Number of degrees of freedom in T-Coupling group Protein is 2145.72
-Number of degrees of freedom in T-Coupling group non-Protein is 20457.29
-
-NOTE 2 [file npt.mdp]:
-  Removing center of mass motion in the presence of position restraints
-  might cause artifacts. When you are using position restraints to
-  equilibrate a macro-molecule, the artifacts are usually negligible.
-
-
-There were 2 notes
-
-Back Off! I just backed up npt.tpr to ./#npt.tpr.1#
-
-GROMACS reminds you: "Why Weren't You at My Funeral ?" (G. Groenhof)
-
-Setting the LD random seed to -341868553
-
-Generated 20503 of the 20503 non-bonded parameter combinations
-
-Generated 17396 of the 20503 1-4 parameter combinations
-
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 1 bonded neighbours molecule type 'NA'
-
-turning H bonds into constraints...
-
-The center of mass of the position restraint coord's is  2.504  2.087  2.700
-
-The center of mass of the position restraint coord's is  2.504  2.087  2.700
-Analysing residue names:
-There are:    56    Protein residues
-There are:  3408      Water residues
-There are:     4        Ion residues
-Analysing Protein...
-Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
-
-The largest distance between excluded atoms is 0.409 nm
-
-Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
-
-Calculated rlist for 1x1 atom pair-list as 1.034 nm, buffer size 0.034 nm
-
-Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
-
-Note that mdrun will redetermine rlist based on the actual pair-list setup
-Calculating fourier grid dimensions for X Y Z
-Using a fourier grid of 32x28x36, spacing 0.157 0.150 0.150
-
-Estimate for the relative computational load of the PME mesh part: 0.22
-
-This run will generate roughly 27 Mb of data
-                      :-) GROMACS - gmx energy, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi energy -f npt.edr -o pressure.xvg
-
-Opened npt.edr as single precision energy file
-
-Select the terms you want from the following list by
-selecting either (part of) the name or the number or a combination.
-End your selection with an empty line or a zero.
--------------------------------------------------------------------
-  1  Bond             2  U-B              3  Proper-Dih.      4  Improper-Dih. 
-  5  CMAP-Dih.        6  LJ-14            7  Coulomb-14       8  LJ-(SR)       
-  9  Disper.-corr.   10  Coulomb-(SR)    11  Coul.-recip.    12  Position-Rest.
- 13  Potential       14  Kinetic-En.     15  Total-Energy    16  Conserved-En. 
- 17  Temperature     18  Pres.-DC        19  Pressure        20  Constr.-rmsd  
- 21  Box-X           22  Box-Y           23  Box-Z           24  Volume        
- 25  Density         26  pV              27  Enthalpy        28  Vir-XX        
- 29  Vir-XY          30  Vir-XZ          31  Vir-YX          32  Vir-YY        
- 33  Vir-YZ          34  Vir-ZX          35  Vir-ZY          36  Vir-ZZ        
- 37  Pres-XX         38  Pres-XY         39  Pres-XZ         40  Pres-YX       
- 41  Pres-YY         42  Pres-YZ         43  Pres-ZX         44  Pres-ZY       
- 45  Pres-ZZ         46  #Surf*SurfTen   47  Box-Vel-XX      48  Box-Vel-YY    
- 49  Box-Vel-ZZ      50  T-Protein       51  T-non-Protein   52  Lamb-Protein  
- 53  Lamb-non-Protein                  
-
-
-Back Off! I just backed up pressure.xvg to ./#pressure.xvg.1#
-Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    2.000         Reading energy frame      3 time    3.000         Reading energy frame      4 time    4.000         Reading energy frame      5 time    5.000         Reading energy frame      6 time    6.000         Reading energy frame      7 time    7.000         Reading energy frame      8 time    8.000         Reading energy frame      9 time    9.000         Reading energy frame     10 time   10.000         Reading energy frame     11 time   11.000         Reading energy frame     12 time   12.000         Reading energy frame     13 time   13.000         Reading energy frame     14 time   14.000         Reading energy frame     15 time   15.000         Reading energy frame     16 time   16.000         Reading energy frame     17 time   17.000         Reading energy frame     18 time   18.000         Reading energy frame     19 time   19.000         Reading energy frame     20 time   20.000         Reading energy frame     30 time   30.000         Reading energy frame     40 time   40.000         Reading energy frame     50 time   50.000         Reading energy frame     60 time   60.000         Reading energy frame     70 time   70.000         Reading energy frame     80 time   80.000         Reading energy frame     90 time   90.000         Reading energy frame    100 time  100.000         Last energy frame read 100 time  100.000         
-
-GROMACS reminds you: "Why Weren't You at My Funeral ?" (G. Groenhof)
-
-
-Statistics over 50001 steps [ 0.0000 through 100.0000 ps ], 1 data sets
-All statistics are over 501 points
-
-Energy                      Average   Err.Est.       RMSD  Tot-Drift
--------------------------------------------------------------------------------
-Pressure                      4.404        4.1     282.63   -8.46954  (bar)
-                      :-) GROMACS - gmx energy, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi energy -f npt.edr -o density.xvg
-
-Opened npt.edr as single precision energy file
-
-Select the terms you want from the following list by
-selecting either (part of) the name or the number or a combination.
-End your selection with an empty line or a zero.
--------------------------------------------------------------------
-  1  Bond             2  U-B              3  Proper-Dih.      4  Improper-Dih. 
-  5  CMAP-Dih.        6  LJ-14            7  Coulomb-14       8  LJ-(SR)       
-  9  Disper.-corr.   10  Coulomb-(SR)    11  Coul.-recip.    12  Position-Rest.
- 13  Potential       14  Kinetic-En.     15  Total-Energy    16  Conserved-En. 
- 17  Temperature     18  Pres.-DC        19  Pressure        20  Constr.-rmsd  
- 21  Box-X           22  Box-Y           23  Box-Z           24  Volume        
- 25  Density         26  pV              27  Enthalpy        28  Vir-XX        
- 29  Vir-XY          30  Vir-XZ          31  Vir-YX          32  Vir-YY        
- 33  Vir-YZ          34  Vir-ZX          35  Vir-ZY          36  Vir-ZZ        
- 37  Pres-XX         38  Pres-XY         39  Pres-XZ         40  Pres-YX       
- 41  Pres-YY         42  Pres-YZ         43  Pres-ZX         44  Pres-ZY       
- 45  Pres-ZZ         46  #Surf*SurfTen   47  Box-Vel-XX      48  Box-Vel-YY    
- 49  Box-Vel-ZZ      50  T-Protein       51  T-non-Protein   52  Lamb-Protein  
- 53  Lamb-non-Protein                  
-
-
-Back Off! I just backed up density.xvg to ./#density.xvg.1#
-Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    2.000         Reading energy frame      3 time    3.000         Reading energy frame      4 time    4.000         Reading energy frame      5 time    5.000         Reading energy frame      6 time    6.000         Reading energy frame      7 time    7.000         Reading energy frame      8 time    8.000         Reading energy frame      9 time    9.000         Reading energy frame     10 time   10.000         Reading energy frame     11 time   11.000         Reading energy frame     12 time   12.000         Reading energy frame     13 time   13.000         Reading energy frame     14 time   14.000         Reading energy frame     15 time   15.000         Reading energy frame     16 time   16.000         Reading energy frame     17 time   17.000         Reading energy frame     18 time   18.000         Reading energy frame     19 time   19.000         Rea[AcquirngLock]/data/md_simple/1PGB/123456/PYPE.json
-
-[BULD](name='lazy_wget/0', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 272)
-  File "'/opt/app/know_simple_md.py'", line 272, in know_simple_md)
-    ctl.lazy_wget( RO(ctl.runtime,'''https://files.rcsb.org/download/{PDB_ID}.pdb'''))
-[CHCK][SKIP]
-
-[BULD](name='_defaul_key_1', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 277)
-  File "'/opt/app/know_simple_md.py'", line 277, in know_simple_md)
-    ctl.RWC(run=write_dep_file)
-[CHCK][RUNN]
-
-[BULD](name='_defaul_key_2', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 280)
-  File "'/opt/app/know_simple_md.py'", line 280, in know_simple_md)
-    ctl.RWC(run='rm -vf ./\#*')
-[CHCK][RUNN]
-[cmd]set -e; rm -vf ./\#*
-
-[BULD](name='_defaul_key_3', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 285)
-  File "'/opt/app/know_simple_md.py'", line 285, in know_simple_md)
-    ctl.RWC(run= ('{GMX} pdb2gmx -f {PDB_ID}.pdb -o {PDB_ID}_processed.gro -water spce -ff charmm27'))
-[CHCK][RUNN]
-[cmd]set -e; gmx pdb2gmx -f 1PGB.pdb -o 1PGB_processed.gro -water spce -ff charmm27
-
-[BULD](name='_defaul_key_4', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 293)
-  File "'/opt/app/know_simple_md.py'", line 293, in know_simple_md)
-    ctl.RWC(run='{GMX} editconf -f {PDB_ID}_processed.gro -o {PDB_ID}_newbox.gro -c -d 1.0')
-[CHCK][RUNN]
-[cmd]set -e; gmx editconf -f 1PGB_processed.gro -o 1PGB_newbox.gro -c -d 1.0
-
-[BULD](name='_defaul_key_5', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 294)
-  File "'/opt/app/know_simple_md.py'", line 294, in know_simple_md)
-    ctl.RWC(run='{GMX} solvate -cp {PDB_ID}_newbox.gro -o {PDB_ID}_solv.gro -cs spc216.gro -p topol.top')
-[CHCK][RUNN]
-[cmd]set -e; gmx solvate -cp 1PGB_newbox.gro -o 1PGB_solv.gro -cs spc216.gro -p topol.top
-
-[BULD](name='_defaul_key_6', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 296)
-  File "'/opt/app/know_simple_md.py'", line 296, in know_simple_md)
-    ctl.RWC(run='{GMX} grompp -f ions.mdp -c {PDB_ID}_solv.gro -p topol.top -o ions.tpr')
-[CHCK][RUNN]
-[cmd]set -e; gmx grompp -f ions.mdp -c 1PGB_solv.gro -p topol.top -o ions.tpr
-
-[BULD](name='_defaul_key_7', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 297)
-  File "'/opt/app/know_simple_md.py'", line 297, in know_simple_md)
-    ctl.RWC(run='echo 13 | {GMX} genion -s ions.tpr -o {PDB_ID}_solv_ions.gro -p topol.top -pname NA -nname CL -neutral')
-[CHCK][RUNN]
-[cmd]set -e; echo 13 | gmx genion -s ions.tpr -o 1PGB_solv_ions.gro -p topol.top -pname NA -nname CL -neutral
-
-[BULD](name='_defaul_key_8', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 302)
-  File "'/opt/app/know_simple_md.py'", line 302, in know_simple_md)
-    ctl.RWC(run='{GMX} grompp -o em.tpr -f minim.mdp -c {PDB_ID}_solv_ions.gro -p topol.top ')
-[CHCK][RUNN]
-[cmd]set -e; gmx grompp -o em.tpr -f minim.mdp -c 1PGB_solv_ions.gro -p topol.top 
-
-[BULD](name='_defaul_key_9', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 303)
-  File "'/opt/app/know_simple_md.py'", line 303, in know_simple_md)
-    ctl.RWC(CWST,'em.gro',run='{GMX} mdrun -v -deffnm em')
-[CHCK][SKIP]
-
-[BULD](name='_defaul_key_10', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 304)
-  File "'/opt/app/know_simple_md.py'", line 304, in know_simple_md)
-    ctl.RWC(run='printf "10\n0\n" | {GMX} energy -f em.edr -o potential.xvg')
-[CHCK][RUNN]
-[cmd]set -e; printf "10
-0
-" | gmx energy -f em.edr -o potential.xvg
-
-[BULD](name='_defaul_key_11', code 'lazy_grace_png', file='/opt/app/know_simple_md.py', line 65)
-  File "'/opt/app/know_simple_md.py'", line 65, in lazy_grace_png)
-        return ctl.RWC(CWST, check_ctx=TARGET, run=f'grace -nxy {SRC} -hdevice PNG -hardcopy -printfile {TARGET}')
-[CHCK][RUNN]
-[cmd]set -e; grace -nxy potential.xvg -hdevice PNG -hardcopy -printfile potential.xvg.png
-
-[BULD](name='_defaul_key_12', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 310)
-  File "'/opt/app/know_simple_md.py'", line 310, in know_simple_md)
-    ctl.RWC(run='''{GMX} grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr''')
-[CHCK][RUNN]
-[cmd]set -e; gmx grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
-
-[BULD](name='_defaul_key_13', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 311)
-  File "'/opt/app/know_simple_md.py'", line 311, in know_simple_md)
-    ctl.RWC(CWST,'nvt.gro',run='{GMX} mdrun -deffnm nvt')
-[CHCK][SKIP]
-
-[BULD](name='_defaul_key_14', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 312)
-  File "'/opt/app/know_simple_md.py'", line 312, in know_simple_md)
-    ctl.RWC(run='echo "17\n0\n" | {GMX} energy -f nvt.edr -o temperature.xvg')
-[CHCK][RUNN]
-[cmd]set -e; echo "17
-0
-" | gmx energy -f nvt.edr -o temperature.xvg
-
-[BULD](name='_defaul_key_15', code 'lazy_grace_png', file='/opt/app/know_simple_md.py', line 65)
-  File "'/opt/app/know_simple_md.py'", line 65, in lazy_grace_png)
-        return ctl.RWC(CWST, check_ctx=TARGET, run=f'grace -nxy {SRC} -hdevice PNG -hardcopy -printfile {TARGET}')
-[CHCK][RUNN]
-[cmd]set -e; grace -nxy temperature.xvg -hdevice PNG -hardcopy -printfile temperature.xvg.png
-
-[BULD](name='_defaul_key_16', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 315)
-  File "'/opt/app/know_simple_md.py'", line 315, in know_simple_md)
-    ctl.RWC(run='''{GMX} grompp -f npt.mdp -c nvt.gro -r nvt.gro -p topol.top -o npt.tpr''')
-[CHCK][RUNN]
-[cmd]set -e; gmx grompp -f npt.mdp -c nvt.gro -r nvt.gro -p topol.top -o npt.tpr
-
-[BULD](name='_defaul_key_17', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 316)
-  File "'/opt/app/know_simple_md.py'", line 316, in know_simple_md)
-    ctl.RWC(CWST,'npt.gro',run='{GMX} mdrun -deffnm npt')
-[CHCK][SKIP]
-
-[BULD](name='_defaul_key_18', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 319)
-  File "'/opt/app/know_simple_md.py'", line 319, in know_simple_md)
-    ctl.RWC(run='echo "19\n0\n" | {GMX} energy -f npt.edr -o pressure.xvg')
-[CHCK][RUNN]
-[cmd]set -e; echo "19
-0
-" | gmx energy -f npt.edr -o pressure.xvg
-
-[BULD](name='_defaul_key_19', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 320)
-  File "'/opt/app/know_simple_md.py'", line 320, in know_simple_md)
-    ctl.RWC(run='echo "25\n0\n" | {GMX} energy -f npt.edr -o density.xvg')
-[CHCK][RUNN]
-[cmd]set -e; echo "25
-0
-" | gmx energy -f npt.edr -o density.xvg
-
-[BULD](name='_defaul_key_20', code 'lazy_grace_png', file='/opt/app/know_simple_md.py', line 65)
-  File "'/opt/app/know_simple_md.py'", line 65, in lazy_grace_png)
-        return ctl.RWC(CWST, check_ctx=TARGET, run=f'grace -nxy {SRC} -hdevice PNG -hardcopy -printfile {TARGET}')
-[CHCK][RUNN]
-[cmd]set -e; grace -nxy density.xvg -hdevice PNG -hardcopy -printfile density.xvg.png
-
-[BULD](name='_defaul_key_21', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 323)
-  File "'/opt/app/know_simple_md.py'", line 323, in know_simple_md)
-    ctl.RWC(run='''{GMX} grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr''')
-[CHCK][RUNN]
-[cmd]set -e; gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
-
-[BULD](name='_defaul_key_22', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 324)
-  File "'/opt/app/know_simple_md.py'", line 324, in know_simple_md)
-    ctl.RWC(CWST,'md_0_1.gro',run='{GMX} mdrun -deffnm md_0_1 -nb gpu')
-[CHCK][SKIP]
-
-[BULD](name='_defaul_key_23', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 326)
-  File "'/opt/app/know_simple_md.py'", line 326, in know_simple_md)
-    ctl.RWC(run=f'echo [SUCCESS]{__file__} 1>&2')
-[CHCK][RUNN]
-[cmd]set -e; echo [SUCCESS]/opt/app/know_simple_md.py 1>&2
-192.168.50.123 - - [08/Dec/2022 14:58:46] "POST /gcat/md_simple/ HTTP/1.1" 200 -
- * Detected change in '/opt/app/server.py', reloading
-ding energy frame     20 time   20.000         Reading energy frame     30 time   30.000         Reading energy frame     40 time   40.000         Reading energy frame     50 time   50.000         Reading energy frame     60 time   60.000         Reading energy frame     70 time   70.000         Reading energy frame     80 time   80.000         Reading energy frame     90 time   90.000         Reading energy frame    100 time  100.000         Last energy frame read 100 time  100.000         
-
-GROMACS reminds you: "She's a Good Sheila Bruce" (Monty Python)
-
-
-Statistics over 50001 steps [ 0.0000 through 100.0000 ps ], 1 data sets
-All statistics are over 501 points
-
-Energy                      Average   Err.Est.       RMSD  Tot-Drift
--------------------------------------------------------------------------------
-Density                     1028.37       0.42    5.76017   0.651559  (kg/m^3)
-/bin/bash: grace: command not found
-                      :-) GROMACS - gmx grompp, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/1PGB/123456
-Command line:
-  gmx_mpi grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
-
-Ignoring obsolete mdp entry 'title'
-Ignoring obsolete mdp entry 'ns_type'
-Generating 1-4 interactions: fudge = 1
-Number of degrees of freedom in T-Coupling group Protein is 2145.72
-Number of degrees of freedom in T-Coupling group non-Protein is 20457.29
-Last frame         -1 time  100.000   
-
-Back Off! I just backed up md_0_1.tpr to ./#md_0_1.tpr.1#
-
-GROMACS reminds you: "She's a Good Sheila Bruce" (Monty Python)
-
-Setting the LD random seed to -22153850
-
-Generated 20503 of the 20503 non-bonded parameter combinations
-
-Generated 17396 of the 20503 1-4 parameter combinations
-
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 1 bonded neighbours molecule type 'NA'
-
-turning H bonds into constraints...
-Analysing residue names:
-There are:    56    Protein residues
-There are:  3408      Water residues
-There are:     4        Ion residues
-Analysing Protein...
-Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
-
-The largest distance between excluded atoms is 0.407 nm
-
-Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 350 K
-
-Calculated rlist for 1x1 atom pair-list as 1.040 nm, buffer size 0.040 nm
-
-Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
-
-Note that mdrun will redetermine rlist based on the actual pair-list setup
-
-Reading Coordinates, Velocities and Box size from old trajectory
-
-Will read whole trajectory
-
-Using frame at t = 100 ps
-
-Starting time for run is 0 ps
-Calculating fourier grid dimensions for X Y Z
-Using a fourier grid of 32x28x36, spacing 0.155 0.148 0.148
-
-Estimate for the relative computational load of the PME mesh part: 0.21
-
-This run will generate roughly 2 Mb of data
-[SUCCESS]/opt/app/know_simple_md.py
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat
-removed './#1PGB_newbox.gro.1#'
-removed './#1PGB_processed.gro.1#'
-removed './#1PGB_solv.gro.1#'
-removed './#1PGB_solv_ions.gro.1#'
-removed './#density.xvg.1#'
-removed './#em.tpr.1#'
-removed './#ions.tpr.1#'
-removed './#md_0_1.tpr.1#'
-removed './#npt.tpr.1#'
-removed './#nvt.tpr.1#'
-removed './#posre.itp.1#'
-removed './#potential.xvg.1#'
-removed './#pressure.xvg.1#'
-removed './#temperature.xvg.1#'
-removed './#topol.top.1#'
-removed './#topol.top.2#'
-removed './#topol.top.3#'
-                     :-) GROMACS - gmx pdb2gmx, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/6a7807661dfc4d382da7f6c5f6bf3007
-Command line:
-  gmx_mpi pdb2gmx -f 1PGB.pdb -o 1PGB_processed.gro -water spce -ff charmm27
-
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.r2b
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.r2b
-there were 0 atoms with zero occupancy and 16 atoms with          occupancy unequal to one (out of 460 atoms). Check your pdb file.
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/atomtypes.atp
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.rtp
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.rtp
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/lipids.rtp
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.rtp
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.hdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.hdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/lipids.hdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.hdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.n.tdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.n.tdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.n.tdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.c.tdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.c.tdb
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.c.tdb
-
-Back Off! I just backed up topol.top to ./#topol.top.1#
-8 out of 8 lines of specbond.dat converted successfully
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.arn
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.arn
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.arn
-Before cleaning: 2257 pairs
-Before cleaning: 2262 dihedrals
-
-Back Off! I just backed up posre.itp to ./#posre.itp.1#
-8 out of 8 lines of specbond.dat converted successfully
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/aminoacids.arn
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/dna.arn
-Opening force field file /gromacs/share/gromacs/top/charmm27.ff/rna.arn
-
-Back Off! I just backed up 1PGB_processed.gro to ./#1PGB_processed.gro.1#
-
-GROMACS reminds you: "Nothing is more anarchic than power." (Pier Paolo Pasolini)
-
-Using the Charmm27 force field in directory charmm27.ff
-
-going to rename charmm27.ff/aminoacids.r2b
-
-going to rename charmm27.ff/rna.r2b
-Reading 1PGB.pdb...
-Read 'PROTEIN G', 460 atoms
-
-Analyzing pdb file
-Splitting chemical chains based on TER records or chain id changing.
-
-There are 1 chains and 1 blocks of water and 80 residues with 460 atoms
-
-  chain  #res #atoms
-
-  1 'A'    56    436  
-
-  2 ' '    24     24  (only water)
-
-there were 0 atoms with zero occupancy and 16 atoms with          occupancy unequal to one (out of 460 atoms). Check your pdb file.
-
-Reading residue database... (Charmm27)
-
-Processing chain 1 'A' (436 atoms, 56 residues)
-
-Identified residue MET1 as a starting terminus.
-
-Identified residue GLU56 as a ending terminus.
-Start terminus MET-1: NH3+
-End terminus GLU-56: COO-
-
-Checking for duplicate atoms....
-
-Generating any missing hydrogen atoms and/or adding termini.
-
-Now there are 56 residues with 855 atoms
-
-Making bonds...
-
-Number of bonds was 861, now 861
-
-Generating angles, dihedrals and pairs...
-
-Making cmap torsions...
-
-There are   54 cmap torsion pairs
-
-There are 2262 dihedrals,  137 impropers, 1551 angles
-          2239 pairs,      861 bonds and     0 virtual sites
-
-Total mass 6191.790 a.m.u.
-
-Total charge -4.000 e
-
-Writing topology
-
-Processing chain 2 (24 atoms, 24 residues)
-
-Problem with chain definition, or missing terminal residues. This chain does not appear to contain a recognized chain molecule. If this is incorrect, you can edit residuetypes.dat to modify the behavior.
-
-Checking for duplicate atoms....
-
-Generating any missing hydrogen atoms and/or adding termini.
-
-Now there are 24 residues with 72 atoms
-
-Making bonds...
-
-Number of bonds was 72, now 72
-
-Generating angles, dihedrals and pairs...
-
-Making cmap torsions...
-
-There are    0 dihedrals,    0 impropers,   72 angles
-             0 pairs,       72 bonds and     0 virtual sites
-
-Total mass 432.370 a.m.u.
-
-Total charge 0.000 e
-
-Including chain 1 in system: 855 atoms 56 residues
-
-Including chain 2 in system: 72 atoms 24 residues
-
-Now there are 927 atoms and 80 residues
-
-Total mass in system 6624.159 a.m.u.
-
-Total charge in system -4.000 e
-
-Writing coordinate file...
-
-		--------- PLEASE NOTE ------------
-
-You have successfully generated a topology from: 1PGB.pdb.
-
-The Charmm27 force field and the spce water model are used.
-
-		--------- ETON ESAELP ------------
-                     :-) GROMACS - gmx editconf, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/6a7807661dfc4d382da7f6c5f6bf3007
-Command line:
-  gmx_mpi editconf -f 1PGB_processed.gro -o 1PGB_newbox.gro -c -d 1.0
-
-
-Back Off! I just backed up 1PGB_newbox.gro to ./#1PGB_newbox.gro.1#
-
-GROMACS reminds you: "Nothing is more anarchic than power." (Pier Paolo Pasolini)
-
-Note that major changes are planned in future for editconf, to improve usability and utility.
-Read 927 atoms
-Volume: 92.1079 nm^3, corresponds to roughly 41400 electrons
-No velocities found
-    system size :  3.035  2.194  3.407 (nm)
-    center      :  0.854  1.298  1.802 (nm)
-    box vectors :  3.663  3.663  7.925 (nm)
-    box angles  :  90.00  90.00 120.00 (degrees)
-    box volume  :  92.11               (nm^3)
-    shift       :  1.663  0.799  0.902 (nm)
-new center      :  2.518  2.097  2.704 (nm)
-new box vectors :  5.035  4.194  5.407 (nm)
-new box angles  :  90.00  90.00  90.00 (degrees)
-new box volume  : 114.18               (nm^3)
-
-WARNING: No boxtype specified - distance condition applied in each dimension.
-If the molecule rotates the actual distance will be smaller. You might want
-to use a cubic box instead, or why not try a dodecahedron today?
-                     :-) GROMACS - gmx solvate, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/6a7807661dfc4d382da7f6c5f6bf3007
-Command line:
-  gmx_mpi solvate -cp 1PGB_newbox.gro -o 1PGB_solv.gro -cs spc216.gro -p topol.top
-
-Reading solute configuration
-Reading solvent configuration
-
-Initialising inter-atomic distances...
-
-WARNING: Masses and atomic (Van der Waals) radii will be guessed
-         based on residue and atom names, since they could not be
-         definitively assigned from the information in your input
-         files. These guessed numbers might deviate from the mass
-         and radius of the atom type. Please check the output
-         files if necessary. Note, that this functionality may
-         be removed in a future GROMACS version. Please, consider
-         using another file format for your input.
-
-NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
-from the source below. This means the results may be different
-compared to previous GROMACS versions.
-
-++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
-A. Bondi
-van der Waals Volumes and Radii
-J. Phys. Chem. 68 (1964) pp. 441-451
--------- -------- --- Thank You --- -------- --------
-
-Generating solvent configuration
-Will generate new solvent configuration of 3x3x3 boxes
-Solvent box contains 13464 atoms in 4488 residues
-Removed 2397 solvent atoms due to solvent-solvent overlap
-Removed 903 solvent atoms due to solute-solvent overlap
-Sorting configuration
-Found 1 molecule type:
-    SOL (   3 atoms):  3388 residues
-Generated solvent containing 10164 atoms in 3388 residues
-Writing generated configuration to 1PGB_solv.gro
-
-Back Off! I just backed up 1PGB_solv.gro to ./#1PGB_solv.gro.1#
-
-Output configuration contains 11091 atoms in 3468 residues
-Volume                 :     114.178 (nm^3)
-Density                :     989.975 (g/l)
-Number of solvent molecules:   3388   
-
-Processing topology
-
-Back Off! I just backed up topol.top to ./#topol.top.2#
-
-GROMACS reminds you: "Whatever Happened to Pong ?" (F. Black)
-
-Adding line for 3388 solvent molecules with resname (SOL) to topology file (topol.top)
-                      :-) GROMACS - gmx grompp, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/6a7807661dfc4d382da7f6c5f6bf3007
-Command line:
-  gmx_mpi grompp -f ions.mdp -c 1PGB_solv.gro -p topol.top -o ions.tpr
-
-Ignoring obsolete mdp entry 'ns_type'
-
-NOTE 1 [file ions.mdp]:
-  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
-  that with the Verlet scheme, nstlist has no effect on the accuracy of
-  your simulation.
-
-Generating 1-4 interactions: fudge = 1
-
-NOTE 2 [file topol.top, line 8089]:
-  System has non-zero total charge: -4.000000
-  Total charge should normally be an integer. See
-  http://www.gromacs.org/Documentation/Floating_Point_Arithmetic
-  for discussion on how close it should be to an integer.
-  
-
-
-Number of degrees of freedom in T-Coupling group rest is 23034.00
-
-NOTE 3 [file ions.mdp]:
-  You are using a plain Coulomb cut-off, which might produce artifacts.
-  You might want to consider using PME electrostatics.
-
-
-
-There were 3 notes
-
-Back Off! I just backed up ions.tpr to ./#ions.tpr.1#
-
-GROMACS reminds you: "Whatever Happened to Pong ?" (F. Black)
-
-Setting the LD random seed to 618132919
-
-Generated 20503 of the 20503 non-bonded parameter combinations
-
-Generated 17396 of the 20503 1-4 parameter combinations
-
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-Analysing residue names:
-There are:    56    Protein residues
-There are:  3412      Water residues
-Analysing Protein...
-
-This run will generate roughly 1 Mb of data
-                      :-) GROMACS - gmx genion, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/6a7807661dfc4d382da7f6c5f6bf3007
-Command line:
-  gmx_mpi genion -s ions.tpr -o 1PGB_solv_ions.gro -p topol.top -pname NA -nname CL -neutral
-
-Reading file ions.tpr, VERSION 2022.2 (single precision)
-Reading file ions.tpr, VERSION 2022.2 (single precision)
-Group     0 (         System) has 11091 elements
-Group     1 (        Protein) has   855 elements
-Group     2 (      Protein-H) has   436 elements
-Group     3 (        C-alpha) has    56 elements
-Group     4 (       Backbone) has   168 elements
-Group     5 (      MainChain) has   223 elements
-Group     6 (   MainChain+Cb) has   275 elements
-Group     7 (    MainChain+H) has   281 elements
-Group     8 (      SideChain) has   574 elements
-Group     9 (    SideChain-H) has   213 elements
-Group    10 (    Prot-Masses) has   855 elements
-Group    11 (    non-Protein) has 10236 elements
-Group    12 (          Water) has 10236 elements
-Group    13 (            SOL) has 10236 elements
-Group    14 (      non-Water) has   855 elements
-Select a group: Number of (3-atomic) solvent molecules: 3412
-
-Back Off! I just backed up topol.top to ./#topol.top.3#
-Using random seed -406666.
-Replacing solvent molecule 2702 (atom 8961) with NA
-Replacing solvent molecule 3020 (atom 9915) with NA
-Replacing solvent molecule 538 (atom 2469) with NA
-Replacing solvent molecule 2027 (atom 6936) with NA
-
-
-Back Off! I just backed up 1PGB_solv_ions.gro to ./#1PGB_solv_ions.gro.1#
-
-GROMACS reminds you: "Whatever Happened to Pong ?" (F. Black)
-
-Will try to add 4 NA ions and 0 CL ions.
-Select a continuous group of solvent molecules
-Selected 13: 'SOL'
-
-Processing topology
-Replacing 4 solute molecules in topology file (topol.top)  by 4 NA and 0 CL ions.
-                      :-) GROMACS - gmx grompp, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/6a7807661dfc4d382da7f6c5f6bf3007
-Command line:
-  gmx_mpi grompp -o em.tpr -f minim.mdp -c 1PGB_solv_ions.gro -p topol.top
-
-Ignoring obsolete mdp entry 'ns_type'
-
-NOTE 1 [file minim.mdp]:
-  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
-  that with the Verlet scheme, nstlist has no effect on the accuracy of
-  your simulation.
-
-Generating 1-4 interactions: fudge = 1
-Number of degrees of freedom in T-Coupling group rest is 23022.00
-
-There was 1 note
-
-Back Off! I just backed up em.tpr to ./#em.tpr.1#
-
-GROMACS reminds you: "Marie, you're looking more radiant every day!" (Pierre Curie)
-
-Setting the LD random seed to -1342963714
-
-Generated 20503 of the 20503 non-bonded parameter combinations
-
-Generated 17396 of the 20503 1-4 parameter combinations
-
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 1 bonded neighbours molecule type 'NA'
-Analysing residue names:
-There are:    56    Protein residues
-There are:  3408      Water residues
-There are:     4        Ion residues
-Analysing Protein...
-Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
-
-The largest distance between excluded atoms is 0.396 nm
-Calculating fourier grid dimensions for X Y Z
-Using a fourier grid of 42x36x48, spacing 0.120 0.116 0.113
-
-Estimate for the relative computational load of the PME mesh part: 0.25
-
-This run will generate roughly 1 Mb of data
-                      :-) GROMACS - gmx energy, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/6a7807661dfc4d382da7f6c5f6bf3007
-Command line:
-  gmx_mpi energy -f em.edr -o potential.xvg
-
-Opened em.edr as single precision energy file
-
-Select the terms you want from the following list by
-selecting either (part of) the name or the number or a combination.
-End your selection with an empty line or a zero.
--------------------------------------------------------------------
-  1  Bond             2  U-B              3  Proper-Dih.      4  Improper-Dih. 
-  5  CMAP-Dih.        6  LJ-14            7  Coulomb-14       8  LJ-(SR)       
-  9  Coulomb-(SR)    10  Coul.-recip.    11  Potential       12  Pressure      
- 13  Vir-XX          14  Vir-XY          15  Vir-XZ          16  Vir-YX        
- 17  Vir-YY          18  Vir-YZ          19  Vir-ZX          20  Vir-ZY        
- 21  Vir-ZZ          22  Pres-XX         23  Pres-XY         24  Pres-XZ       
- 25  Pres-YX         26  Pres-YY         27  Pres-YZ         28  Pres-ZX       
- 29  Pres-ZY         30  Pres-ZZ         31  #Surf*SurfTen   32  T-rest        
-
-
-Back Off! I just backed up potential.xvg to ./#potential.xvg.1#
-Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    2.000         Reading energy frame      3 time    3.000         Reading energy frame      4 time    4.000         Reading energy frame      5 time    5.000         Reading energy frame      6 time    6.000         Reading energy frame      7 time    7.000         Reading energy frame      8 time    8.000         Reading energy frame      9 time   10.000         Reading energy frame     10 time   12.000         Reading energy frame     11 time   13.000         Reading energy frame     12 time   14.000         Reading energy frame     13 time   15.000         Reading energy frame     14 time   16.000         Reading energy frame     15 time   18.000         Reading energy frame     16 time   19.000         Reading energy frame     17 time   20.000         Reading energy frame     18 time   22.000         Reading energy frame     19 time   23.000         Reading energy frame     20 time   24.000         Reading energy frame     30 time   37.000         Reading energy frame     40 time   50.000         Reading energy frame     50 time   62.000         Reading energy frame     60 time   75.000         Reading energy frame     70 time   88.000         Reading energy frame     80 time  101.000         Reading energy frame     90 time  113.000         Reading energy frame    100 time  126.000         Reading energy frame    110 time  138.000         Reading energy frame    120 time  151.000         Reading energy frame    130 time  164.000         Reading energy frame    140 time  177.000         Reading energy frame    150 time  189.000         Last energy frame read 152 time  192.000         
-
-GROMACS reminds you: "Marie, you're looking more radiant every day!" (Pierre Curie)
-
-
-Statistics over 193 steps [ 0.0000 through 192.0000 ps ], 1 data sets
-All statistics are over 153 points (frames)
-
-Energy                      Average   Err.Est.       RMSD  Tot-Drift
--------------------------------------------------------------------------------
-Coul. recip.                2377.09        340    813.268   -2265.48  (kJ/mol)
-/bin/bash: grace: command not found
-                      :-) GROMACS - gmx grompp, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/6a7807661dfc4d382da7f6c5f6bf3007
-Command line:
-  gmx_mpi grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
-
-Ignoring obsolete mdp entry 'title'
-Ignoring obsolete mdp entry 'ns_type'
-Generating 1-4 interactions: fudge = 1
-Number of degrees of freedom in T-Coupling group Protein is 2145.72
-Number of degrees of freedom in T-Coupling group non-Protein is 20457.29
-
-NOTE 1 [file nvt.mdp]:
-  Removing center of mass motion in the presence of position restraints
-  might cause artifacts. When you are using position restraints to
-  equilibrate a macro-molecule, the artifacts are usually negligible.
-
-
-There was 1 note
-
-Back Off! I just backed up nvt.tpr to ./#nvt.tpr.1#
-
-GROMACS reminds you: "Marie, you're looking more radiant every day!" (Pierre Curie)
-
-Setting the LD random seed to 2146751855
-
-Generated 20503 of the 20503 non-bonded parameter combinations
-
-Generated 17396 of the 20503 1-4 parameter combinations
-
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 1 bonded neighbours molecule type 'NA'
-
-turning H bonds into constraints...
-
-Setting gen_seed to -1612841041
-
-Velocities were taken from a Maxwell distribution at 300 K
-Analysing residue names:
-There are:    56    Protein residues
-There are:  3408      Water residues
-There are:     4        Ion residues
-Analysing Protein...
-Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
-
-The largest distance between excluded atoms is 0.404 nm
-
-Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
-
-Calculated rlist for 1x1 atom pair-list as 1.034 nm, buffer size 0.034 nm
-
-Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
-
-Note that mdrun will redetermine rlist based on the actual pair-list setup
-Calculating fourier grid dimensions for X Y Z
-Using a fourier grid of 32x28x36, spacing 0.157 0.150 0.150
-
-Estimate for the relative computational load of the PME mesh part: 0.22
-
-This run will generate roughly 27 Mb of data
-                      :-) GROMACS - gmx energy, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/6a7807661dfc4d382da7f6c5f6bf3007
-Command line:
-  gmx_mpi energy -f nvt.edr -o temperature.xvg
-
-Opened nvt.edr as single precision energy file
-
-Select the terms you want from the following list by
-selecting either (part of) the name or the number or a combination.
-End your selection with an empty line or a zero.
--------------------------------------------------------------------
-  1  Bond             2  U-B              3  Proper-Dih.      4  Improper-Dih. 
-  5  CMAP-Dih.        6  LJ-14            7  Coulomb-14       8  LJ-(SR)       
-  9  Disper.-corr.   10  Coulomb-(SR)    11  Coul.-recip.    12  Position-Rest.
- 13  Potential       14  Kinetic-En.     15  Total-Energy    16  Conserved-En. 
- 17  Temperature     18  Pres.-DC        19  Pressure        20  Constr.-rmsd  
- 21  Vir-XX          22  Vir-XY          23  Vir-XZ          24  Vir-YX        
- 25  Vir-YY          26  Vir-YZ          27  Vir-ZX          28  Vir-ZY        
- 29  Vir-ZZ          30  Pres-XX         31  Pres-XY         32  Pres-XZ       
- 33  Pres-YX         34  Pres-YY         35  Pres-YZ         36  Pres-ZX       
- 37  Pres-ZY         38  Pres-ZZ         39  #Surf*SurfTen   40  T-Protein     
- 41  T-non-Protein                       42  Lamb-Protein                      
- 43  Lamb-non-Protein                  
-
-
-Back Off! I just backed up temperature.xvg to ./#temperature.xvg.1#
-Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    2.000         Reading energy frame      3 time    3.000         Reading energy frame      4 time    4.000         Reading energy frame      5 time    5.000         Reading energy frame      6 time    6.000         Reading energy frame      7 time    7.000         Reading energy frame      8 time    8.000         Reading energy frame      9 time    9.000         Reading energy frame     10 time   10.000         Reading energy frame     11 time   11.000         Reading energy frame     12 time   12.000         Reading energy frame     13 time   13.000         Reading energy frame     14 time   14.000         Reading energy frame     15 time   15.000         Reading energy frame     16 time   16.000         Reading energy frame     17 time   17.000         Reading energy frame     18 time   18.000         Reading energy frame     19 time   19.000         Reading energy frame     20 time   20.000         Reading energy frame     30 time   30.000         Reading energy frame     40 time   40.000         Reading energy frame     50 time   50.000         Reading energy frame     60 time   60.000         Reading energy frame     70 time   70.000         Reading energy frame     80 time   80.000         Reading energy frame     90 time   90.000         Reading energy frame    100 time  100.000         Last energy frame read 100 time  100.000         
-
-GROMACS reminds you: "I spent a lot of money on booze, birds and fast cars. The rest I just squandered." (George Best)
-
-
-Statistics over 50001 steps [ 0.0000 through 100.0000 ps ], 1 data sets
-All statistics are over 501 points
-
-Energy                      Average   Err.Est.       RMSD  Tot-Drift
--------------------------------------------------------------------------------
-Temperature                 299.719      0.067     3.2872 -0.00967922  (K)
-/bin/bash: grace: command not found
-                      :-) GROMACS - gmx grompp, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/6a7807661dfc4d382da7f6c5f6bf3007
-Command line:
-  gmx_mpi grompp -f npt.mdp -c nvt.gro -r nvt.gro -p topol.top -o npt.tpr
-
-Ignoring obsolete mdp entry 'title'
-Ignoring obsolete mdp entry 'ns_type'
-Generating 1-4 interactions: fudge = 1
-
-NOTE 1 [file topol.top, line 8090]:
-  You are combining position restraints with Parrinello-Rahman pressure
-  coupling, which can lead to instabilities. If you really want to combine
-  position restraints with pressure coupling, we suggest to use Berendsen
-  pressure coupling instead.
-
-Number of degrees of freedom in T-Coupling group Protein is 2145.72
-Number of degrees of freedom in T-Coupling group non-Protein is 20457.29
-
-NOTE 2 [file npt.mdp]:
-  Removing center of mass motion in the presence of position restraints
-  might cause artifacts. When you are using position restraints to
-  equilibrate a macro-molecule, the artifacts are usually negligible.
-
-
-There were 2 notes
-
-Back Off! I just backed up npt.tpr to ./#npt.tpr.1#
-
-GROMACS reminds you: "I spent a lot of money on booze, birds and fast cars. The rest I just squandered." (George Best)
-
-Setting the LD random seed to -168312964
-
-Generated 20503 of the 20503 non-bonded parameter combinations
-
-Generated 17396 of the 20503 1-4 parameter combinations
-
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 1 bonded neighbours molecule type 'NA'
-
-turning H bonds into constraints...
-
-The center of mass of the position restraint coord's is  2.504  2.087  2.700
-
-The center of mass of the position restraint coord's is  2.504  2.087  2.700
-Analysing residue names:
-There are:    56    Protein residues
-There are:  3408      Water residues
-There are:     4        Ion residues
-Analysing Protein...
-Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
-
-The largest distance between excluded atoms is 0.409 nm
-
-Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
-
-Calculated rlist for 1x1 atom pair-list as 1.034 nm, buffer size 0.034 nm
-
-Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
-
-Note that mdrun will redetermine rlist based on the actual pair-list setup
-Calculating fourier grid dimensions for X Y Z
-Using a fourier grid of 32x28x36, spacing 0.157 0.150 0.150
-
-Estimate for the relative computational load of the PME mesh part: 0.22
-
-This run will generate roughly 27 Mb of data
-                      :-) GROMACS - gmx energy, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/6a7807661dfc4d382da7f6c5f6bf3007
-Command line:
-  gmx_mpi energy -f npt.edr -o pressure.xvg
-
-Opened npt.edr as single precision energy file
-
-Select the terms you want from the following list by
-selecting either (part of) the name or the number or a combination.
-End your selection with an empty line or a zero.
--------------------------------------------------------------------
-  1  Bond             2  U-B              3  Proper-Dih.      4  Improper-Dih. 
-  5  CMAP-Dih.        6  LJ-14            7  Coulomb-14       8  LJ-(SR)       
-  9  Disper.-corr.   10  Coulomb-(SR)    11  Coul.-recip.    12  Position-Rest.
- 13  Potential       14  Kinetic-En.     15  Total-Energy    16  Conserved-En. 
- 17  Temperature     18  Pres.-DC        19  Pressure        20  Constr.-rmsd  
- 21  Box-X           22  Box-Y           23  Box-Z           24  Volume        
- 25  Density         26  pV              27  Enthalpy        28  Vir-XX        
- 29  Vir-XY          30  Vir-XZ          31  Vir-YX          32  Vir-YY        
- 33  Vir-YZ          34  Vir-ZX          35  Vir-ZY          36  Vir-ZZ        
- 37  Pres-XX         38  Pres-XY         39  Pres-XZ         40  Pres-YX       
- 41  Pres-YY         42  Pres-YZ         43  Pres-ZX         44  Pres-ZY       
- 45  Pres-ZZ         46  #Surf*SurfTen   47  Box-Vel-XX      48  Box-Vel-YY    
- 49  Box-Vel-ZZ      50  T-Protein       51  T-non-Protein   52  Lamb-Protein  
- 53  Lamb-non-Protein                  
-
-
-Back Off! I just backed up pressure.xvg to ./#pressure.xvg.1#
-Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    2.000         Reading energy frame      3 time    3.000         Reading energy frame      4 time    4.000         Reading energy frame      5 time    5.000         Reading energy frame      6 time    6.000         Reading energy frame      7 time    7.000         Reading energy frame      8 time    8.000         Reading energy frame      9 time    9.000         Reading energy frame     10 time   10.000         Reading energy frame     11 time   11.000         Reading energy frame     12 time   12.000         Reading energy frame     13 time   13.000         Reading energy frame     14 time   14.000         Reading energy frame     15 time   15.000         Reading energy frame     16 time   16.000         Reading energy frame     17 time   17.000         Reading energy frame     18 time   18.000         Reading energy frame     19 time   19.000         Reading energy frame     20 time   20.000         Reading energy frame     30 time   30.000         Reading energy frame     40 time   40.000         Reading energy frame     50 time   50.000         Reading energy frame     60 time   60.000         Reading energy frame     70 time   70.000         Reading energy frame     80 time   80.000         Reading energy frame     90 time   90.000         Reading energy frame    100 time  100.000         Last energy frame read 100 time  100.000         
-
-GROMACS reminds you: "I spent a lot of money on booze, birds and fast cars. The rest I just squandered." (George Best)
-
-
-Statistics over 50001 steps [ 0.0000 through 100.0000 ps ], 1 data sets
-All statistics are over 501 points
-
-Energy                      Average   Err.Est.       RMSD  Tot-Drift
--------------------------------------------------------------------------------
-Pressure                      4.404        4.1     282.63   -8.46954  (bar)
-                      :-) GROMACS - gmx energy, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/6a7807661dfc4d382da7f6c5f6bf3007
-Command line:
-  gmx_mpi energy -f npt.edr -o density.xvg
-
-Opened npt.edr as single precision energy file
-
-Select the terms you want from the following list by
-selecting either (part of) the name or the number or a combination.
-End your selection with an empty line or a zero.
--------------------------------------------------------------------
-  1  Bond             2  U-B              3  Proper-Dih.      4  Improper-Dih. 
-  5  CMAP-Dih.        6  LJ-14            7  Coulomb-14       8  LJ-(SR)       
-  9  Disper.-corr.   10  Coulomb-(SR)    11  Coul.-recip.    12  Position-Rest.
- 13  Potential       14  Kinetic-En.     15  Total-Energy    16  Conserved-En. 
- 17  Temperature     18  Pres.-DC        19  Pressure        20  Constr.-rmsd  
- 21  Box-X           22  Box-Y           23  Box-Z           24  Volume        
- 25  Density         26  pV              27  Enthalpy        28  Vir-XX        
- 29  Vir-XY          30  Vir-XZ          31  Vir-YX          32  Vir-YY        
- 33  Vir-YZ          34  Vir-ZX          35  Vir-ZY          36  Vir-ZZ        
- 37  Pres-XX         38  Pres-XY         39  Pres-XZ         40  Pres-YX       
- 41  Pres-YY         42  Pres-YZ         43  Pres-ZX         44  Pres-ZY       
- 45  Pres-ZZ         46  #Surf*SurfTen   47  Box-Vel-XX      48  Box-Vel-YY    
- 49  Box-Vel-ZZ      50  T-Protein       51  T-non-Protein   52  Lamb-Protein  
- 53  Lamb-non-Protein                  
-
-
-Back Off! I just backed up density.xvg to ./#density.xvg.1#
-Reading energy frame      0 time    0.000         Reading energy frame      1 time    1.000         Reading energy frame      2 time    2.000         Reading energy frame      3 time    3.000         Reading energy frame      4 time    4.000         Reading energy frame      5 time    5.000         Reading energy frame      6 time    6.000         Reading energy frame      7 time    7.000         Reading energy frame      8 time    8.000         Reading energy frame      9 time    9.000         Reading energy frame     10 time   10.000         Reading energy frame     11 time   11.000         Reading energy frame     12 time   12.000         Reading energy frame     13 time   13.000         Reading energy frame     14 time   14.000         Reading energy frame     15 time   15.000         Reading energy frame     16 time   16.000         Reading energy frame     17 time   17.000         Reading energy frame     18 time   18.000         Reading energy frame     19 time   19.000         Rea[AcquirngLock]/data/md_simple/6a7807661dfc4d382da7f6c5f6bf3007/PYPE.json
-
-[BULD](name='lazy_wget/0', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 272)
-  File "'/opt/app/know_simple_md.py'", line 272, in know_simple_md)
-    ctl.lazy_wget( RO(ctl.runtime,'''https://files.rcsb.org/download/{PDB_ID}.pdb'''))
-[CHCK][SKIP]
-
-[BULD](name='_defaul_key_1', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 277)
-  File "'/opt/app/know_simple_md.py'", line 277, in know_simple_md)
-    ctl.RWC(run=write_dep_file)
-[CHCK][RUNN]
-
-[BULD](name='_defaul_key_2', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 280)
-  File "'/opt/app/know_simple_md.py'", line 280, in know_simple_md)
-    ctl.RWC(run='rm -vf ./\#*')
-[CHCK][RUNN]
-[cmd]set -e; rm -vf ./\#*
-
-[BULD](name='_defaul_key_3', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 285)
-  File "'/opt/app/know_simple_md.py'", line 285, in know_simple_md)
-    ctl.RWC(run= ('{GMX} pdb2gmx -f {PDB_ID}.pdb -o {PDB_ID}_processed.gro -water spce -ff charmm27'))
-[CHCK][RUNN]
-[cmd]set -e; gmx pdb2gmx -f 1PGB.pdb -o 1PGB_processed.gro -water spce -ff charmm27
-
-[BULD](name='_defaul_key_4', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 293)
-  File "'/opt/app/know_simple_md.py'", line 293, in know_simple_md)
-    ctl.RWC(run='{GMX} editconf -f {PDB_ID}_processed.gro -o {PDB_ID}_newbox.gro -c -d 1.0')
-[CHCK][RUNN]
-[cmd]set -e; gmx editconf -f 1PGB_processed.gro -o 1PGB_newbox.gro -c -d 1.0
-
-[BULD](name='_defaul_key_5', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 294)
-  File "'/opt/app/know_simple_md.py'", line 294, in know_simple_md)
-    ctl.RWC(run='{GMX} solvate -cp {PDB_ID}_newbox.gro -o {PDB_ID}_solv.gro -cs spc216.gro -p topol.top')
-[CHCK][RUNN]
-[cmd]set -e; gmx solvate -cp 1PGB_newbox.gro -o 1PGB_solv.gro -cs spc216.gro -p topol.top
-
-[BULD](name='_defaul_key_6', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 296)
-  File "'/opt/app/know_simple_md.py'", line 296, in know_simple_md)
-    ctl.RWC(run='{GMX} grompp -f ions.mdp -c {PDB_ID}_solv.gro -p topol.top -o ions.tpr')
-[CHCK][RUNN]
-[cmd]set -e; gmx grompp -f ions.mdp -c 1PGB_solv.gro -p topol.top -o ions.tpr
-
-[BULD](name='_defaul_key_7', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 297)
-  File "'/opt/app/know_simple_md.py'", line 297, in know_simple_md)
-    ctl.RWC(run='echo 13 | {GMX} genion -s ions.tpr -o {PDB_ID}_solv_ions.gro -p topol.top -pname NA -nname CL -neutral')
-[CHCK][RUNN]
-[cmd]set -e; echo 13 | gmx genion -s ions.tpr -o 1PGB_solv_ions.gro -p topol.top -pname NA -nname CL -neutral
-
-[BULD](name='_defaul_key_8', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 302)
-  File "'/opt/app/know_simple_md.py'", line 302, in know_simple_md)
-    ctl.RWC(run='{GMX} grompp -o em.tpr -f minim.mdp -c {PDB_ID}_solv_ions.gro -p topol.top ')
-[CHCK][RUNN]
-[cmd]set -e; gmx grompp -o em.tpr -f minim.mdp -c 1PGB_solv_ions.gro -p topol.top 
-
-[BULD](name='_defaul_key_9', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 303)
-  File "'/opt/app/know_simple_md.py'", line 303, in know_simple_md)
-    ctl.RWC(CWST,'em.gro',run='{GMX} mdrun -v -deffnm em')
-[CHCK][SKIP]
-
-[BULD](name='_defaul_key_10', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 304)
-  File "'/opt/app/know_simple_md.py'", line 304, in know_simple_md)
-    ctl.RWC(run='printf "10\n0\n" | {GMX} energy -f em.edr -o potential.xvg')
-[CHCK][RUNN]
-[cmd]set -e; printf "10
-0
-" | gmx energy -f em.edr -o potential.xvg
-
-[BULD](name='_defaul_key_11', code 'lazy_grace_png', file='/opt/app/know_simple_md.py', line 65)
-  File "'/opt/app/know_simple_md.py'", line 65, in lazy_grace_png)
-        return ctl.RWC(CWST, check_ctx=TARGET, run=f'grace -nxy {SRC} -hdevice PNG -hardcopy -printfile {TARGET}')
-[CHCK][RUNN]
-[cmd]set -e; grace -nxy potential.xvg -hdevice PNG -hardcopy -printfile potential.xvg.png
-
-[BULD](name='_defaul_key_12', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 310)
-  File "'/opt/app/know_simple_md.py'", line 310, in know_simple_md)
-    ctl.RWC(run='''{GMX} grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr''')
-[CHCK][RUNN]
-[cmd]set -e; gmx grompp -f nvt.mdp -c em.gro -r em.gro -p topol.top -o nvt.tpr
-
-[BULD](name='_defaul_key_13', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 311)
-  File "'/opt/app/know_simple_md.py'", line 311, in know_simple_md)
-    ctl.RWC(CWST,'nvt.gro',run='{GMX} mdrun -deffnm nvt')
-[CHCK][SKIP]
-
-[BULD](name='_defaul_key_14', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 312)
-  File "'/opt/app/know_simple_md.py'", line 312, in know_simple_md)
-    ctl.RWC(run='echo "17\n0\n" | {GMX} energy -f nvt.edr -o temperature.xvg')
-[CHCK][RUNN]
-[cmd]set -e; echo "17
-0
-" | gmx energy -f nvt.edr -o temperature.xvg
-
-[BULD](name='_defaul_key_15', code 'lazy_grace_png', file='/opt/app/know_simple_md.py', line 65)
-  File "'/opt/app/know_simple_md.py'", line 65, in lazy_grace_png)
-        return ctl.RWC(CWST, check_ctx=TARGET, run=f'grace -nxy {SRC} -hdevice PNG -hardcopy -printfile {TARGET}')
-[CHCK][RUNN]
-[cmd]set -e; grace -nxy temperature.xvg -hdevice PNG -hardcopy -printfile temperature.xvg.png
-
-[BULD](name='_defaul_key_16', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 315)
-  File "'/opt/app/know_simple_md.py'", line 315, in know_simple_md)
-    ctl.RWC(run='''{GMX} grompp -f npt.mdp -c nvt.gro -r nvt.gro -p topol.top -o npt.tpr''')
-[CHCK][RUNN]
-[cmd]set -e; gmx grompp -f npt.mdp -c nvt.gro -r nvt.gro -p topol.top -o npt.tpr
-
-[BULD](name='_defaul_key_17', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 316)
-  File "'/opt/app/know_simple_md.py'", line 316, in know_simple_md)
-    ctl.RWC(CWST,'npt.gro',run='{GMX} mdrun -deffnm npt')
-[CHCK][SKIP]
-
-[BULD](name='_defaul_key_18', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 319)
-  File "'/opt/app/know_simple_md.py'", line 319, in know_simple_md)
-    ctl.RWC(run='echo "19\n0\n" | {GMX} energy -f npt.edr -o pressure.xvg')
-[CHCK][RUNN]
-[cmd]set -e; echo "19
-0
-" | gmx energy -f npt.edr -o pressure.xvg
-
-[BULD](name='_defaul_key_19', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 320)
-  File "'/opt/app/know_simple_md.py'", line 320, in know_simple_md)
-    ctl.RWC(run='echo "25\n0\n" | {GMX} energy -f npt.edr -o density.xvg')
-[CHCK][RUNN]
-[cmd]set -e; echo "25
-0
-" | gmx energy -f npt.edr -o density.xvg
-
-[BULD](name='_defaul_key_20', code 'lazy_grace_png', file='/opt/app/know_simple_md.py', line 65)
-  File "'/opt/app/know_simple_md.py'", line 65, in lazy_grace_png)
-        return ctl.RWC(CWST, check_ctx=TARGET, run=f'grace -nxy {SRC} -hdevice PNG -hardcopy -printfile {TARGET}')
-[CHCK][RUNN]
-[cmd]set -e; grace -nxy density.xvg -hdevice PNG -hardcopy -printfile density.xvg.png
-
-[BULD](name='_defaul_key_21', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 323)
-  File "'/opt/app/know_simple_md.py'", line 323, in know_simple_md)
-    ctl.RWC(run='''{GMX} grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr''')
-[CHCK][RUNN]
-[cmd]set -e; gmx grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
-
-[BULD](name='_defaul_key_22', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 324)
-  File "'/opt/app/know_simple_md.py'", line 324, in know_simple_md)
-    ctl.RWC(CWST,'md_0_1.gro',run='{GMX} mdrun -deffnm md_0_1 -nb gpu')
-[CHCK][SKIP]
-
-[BULD](name='_defaul_key_23', code 'know_simple_md', file='/opt/app/know_simple_md.py', line 326)
-  File "'/opt/app/know_simple_md.py'", line 326, in know_simple_md)
-    ctl.RWC(run=f'echo [SUCCESS]{__file__} 1>&2')
-[CHCK][RUNN]
-[cmd]set -e; echo [SUCCESS]/opt/app/know_simple_md.py 1>&2
-192.168.50.123 - - [08/Dec/2022 15:00:06] "POST /gcat/md_simple/ HTTP/1.1" 200 -
- * Detected change in '/opt/app/server.py', reloading
-ding energy frame     20 time   20.000         Reading energy frame     30 time   30.000         Reading energy frame     40 time   40.000         Reading energy frame     50 time   50.000         Reading energy frame     60 time   60.000         Reading energy frame     70 time   70.000         Reading energy frame     80 time   80.000         Reading energy frame     90 time   90.000         Reading energy frame    100 time  100.000         Last energy frame read 100 time  100.000         
-
-GROMACS reminds you: "I'm a Wishbone and I'm Breaking" (Pixies)
-
-
-Statistics over 50001 steps [ 0.0000 through 100.0000 ps ], 1 data sets
-All statistics are over 501 points
-
-Energy                      Average   Err.Est.       RMSD  Tot-Drift
--------------------------------------------------------------------------------
-Density                     1028.37       0.42    5.76017   0.651559  (kg/m^3)
-/bin/bash: grace: command not found
-                      :-) GROMACS - gmx grompp, 2022.2 (-:
-
-Executable:   /gromacs/bin.AVX2_256/gmx_mpi
-Data prefix:  /gromacs
-Working dir:  /data/md_simple/6a7807661dfc4d382da7f6c5f6bf3007
-Command line:
-  gmx_mpi grompp -f md.mdp -c npt.gro -t npt.cpt -p topol.top -o md_0_1.tpr
-
-Ignoring obsolete mdp entry 'title'
-Ignoring obsolete mdp entry 'ns_type'
-Generating 1-4 interactions: fudge = 1
-Number of degrees of freedom in T-Coupling group Protein is 2145.72
-Number of degrees of freedom in T-Coupling group non-Protein is 20457.29
-Last frame         -1 time  100.000   
-
-Back Off! I just backed up md_0_1.tpr to ./#md_0_1.tpr.1#
-
-GROMACS reminds you: "I'm a Wishbone and I'm Breaking" (Pixies)
-
-Setting the LD random seed to 1593634001
-
-Generated 20503 of the 20503 non-bonded parameter combinations
-
-Generated 17396 of the 20503 1-4 parameter combinations
-
-Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-turning H bonds into constraints...
-
-Excluding 2 bonded neighbours molecule type 'SOL'
-
-Excluding 1 bonded neighbours molecule type 'NA'
-
-turning H bonds into constraints...
-Analysing residue names:
-There are:    56    Protein residues
-There are:  3408      Water residues
-There are:     4        Ion residues
-Analysing Protein...
-Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
-
-The largest distance between excluded atoms is 0.407 nm
-
-Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 350 K
-
-Calculated rlist for 1x1 atom pair-list as 1.040 nm, buffer size 0.040 nm
-
-Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
-
-Note that mdrun will redetermine rlist based on the actual pair-list setup
-
-Reading Coordinates, Velocities and Box size from old trajectory
-
-Will read whole trajectory
-
-Using frame at t = 100 ps
-
-Starting time for run is 0 ps
-Calculating fourier grid dimensions for X Y Z
-Using a fourier grid of 32x28x36, spacing 0.155 0.148 0.148
-
-Estimate for the relative computational load of the PME mesh part: 0.21
-
-This run will generate roughly 2 Mb of data
-[SUCCESS]/opt/app/know_simple_md.py
- * Restarting with stat
- * Detected change in '/opt/app/server.py', reloading
- * Restarting with stat

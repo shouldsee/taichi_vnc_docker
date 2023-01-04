@@ -1,29 +1,19 @@
 services:
   main:
-    build: 
-      context: .
-      args:
-        APP_PORT: 9002
-        HTTPS_PROXY: socks5h://192.168.50.132:1090
-        HTTP_PROXY: socks5h://192.168.50.132:1090
-        GITURL: http://192.168.50.132:10880/gogs     
-#  test:
     build:
       context: .
       args:
-        APP_PORT: 9002
+        # APP_PORT: 9015
         HTTPS_PROXY: socks5h://192.168.50.132:1090
         HTTP_PROXY: socks5h://192.168.50.132:1090
-        GITURL: http://192.168.50.132:10880/gogs
-#        GITURL: http://docker-host:10880/gogs/
-#        BUILDKIT_PROGRESS: plain
-#    image: pytorch/pytorch:1.11.0-cuda11.3-cudnn8-devel
+        GITURL: http://github.com/example-git        
+    # environment:
+    #   - APP_PORT=9015
     ports:
-     - "9002:9002"
+     - "9015:80"
     extra_hosts:
       - "docker-host:host-gateway"
 #    command: 'python', '-m','app.mdsrv','--port','$PORT','--prefix','/mdsrv','1>','/data/stdout.log','2>','/data/stderr.log']
-    working_dir: /data
     stdin_open: true # docker run -i
     tty: true        # docker run -t
     deploy:
@@ -33,9 +23,8 @@ services:
             - driver: nvidia
               count: 1
               capabilities: [gpu]
+    working_dir: /data
     volumes:
       - ./app:/opt/app
       - ./data/:/data/
       - /shared_data:/shared_data
-#      - ./data:/data
-#      - ./static-prot:/opt/static-prot
